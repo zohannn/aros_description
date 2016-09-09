@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<robot name="aros">  
+  
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/base/body.dae" />
+      </geometry>
+       <!-- <origin xyz="4.7 -0.47 0.814" rpy="0 0 0" /> --> 
+    </visual>
+  </link>
+    
+   <link name="torso_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/torso/torso.dae" />
+      </geometry>
+      <!-- <origin xyz="4.7 -0.47 1.203" rpy="0 0 0" /> --> 
+    </visual>
+  </link>
+  
+     <link name="pan_body_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/pan_body/pan_body.dae" />
+      </geometry>
+      <!-- <origin xyz="4.7 -0.475 1.65" rpy="0 0 0" /> --> 
+    </visual>
+  </link>
+  
+   <link name="neck_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/neck/neck.dae" />
+      </geometry>
+      <!-- <origin xyz="4.7 -0.475 1.6944" rpy="0 0 0" /> --> 
+    </visual>
+  </link>
+  
+   <link name="vision_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/vision/vision.dae" />
+      </geometry>
+      <!-- <origin xyz="4.7 -0.475 1.7447" rpy="0 0 0" /> --> 
+    </visual>
+  </link>
+  
+   <link name="right_arm0_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/right_arm/link0/body.dae" />
+      </geometry>
+      <!-- <origin xyz="4.7 -0.325 1.5" rpy="0 0 0" /> --> 
+    </visual>
+  </link> 
+  
+ 
+   <link name="right_arm1_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/right_arm/link1/body.dae" />
+      </geometry>
+      <!-- <origin xyz="4.7 -0.125 1.5" rpy="0 0 0" /> -->  
+  </visual>
+  </link>
+
+  
+   <link name="right_arm2_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/right_arm/link2/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.75 -0.07068 1.454" rpy="0 0 0" /> --> 
+   </visual>
+  </link> 
+
+  
+   <joint name="base_to_torso" type="fixed">
+    <parent link="base_link"/>
+    <child link="torso_link"/>
+    <origin xyz="0 0 1.203" rpy="0 0 0" />
+  </joint>
+  
+   <joint name="torso_to_pan_body" type="fixed">
+    <parent link="torso_link"/>
+    <child link="pan_body_link"/>
+    <origin xyz="0 0.005 0.447" rpy="0 0 0" />
+  </joint>
+  
+   <joint name="pan_body_to_neck" type="fixed">
+    <parent link="pan_body_link"/>
+    <child link="neck_link"/>
+    <origin xyz="0 0 0.044" rpy="0 0 0" />
+  </joint>
+  
+  <joint name="neck_to_vision" type="fixed">
+    <parent link="neck_link"/>
+    <child link="vision_link"/>
+    <origin xyz="0 0 0.0503" rpy="0 0 0" />
+  </joint>
+  
+  <joint name="torso_to_right_joint0" type="fixed">
+    <parent link="torso_link"/>
+    <child link="right_arm0_link"/>
+    <origin xyz="0 0.045 0.297" rpy="-1.57 -3.14 0" />
+  </joint>
+ 
+  <joint name="right_joint0" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="160.0" lower="-2.62" upper="1.57" velocity="0.5"/>
+    <parent link="right_arm0_link"/>
+    <child link="right_arm1_link"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0" />
+  </joint>
+
+ 
+  <joint name="right_joint1" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="160.0" lower="-1.66" upper="0.79" velocity="0.5"/>
+    <parent link="right_arm1_link"/>
+    <child link="right_arm2_link"/>
+    <origin xyz="0 0 0.14" rpy="1.57 1.57 0" />
+  </joint>
+
+  
+</robot>
