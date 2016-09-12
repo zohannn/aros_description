@@ -158,6 +158,19 @@
    </visual>
   </link>
   
+ <!-- finger 1 --> 
+  <link name="right_finger1_base_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/right_arm/fingers/finger1/base/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.73 0.933 1.53" rpy="0 0 0" /> --> 
+   </visual>
+  </link> 
+  <!-- finger 2 -->
+  
+  <!-- finger 3 -->
+  
   <link name="right_finger3_1_link">
     <visual>
       <geometry>
@@ -296,6 +309,17 @@
     <origin xyz="0.035 0 0" rpy="0 0 0"/>
   </joint>
   
+  <!-- finger 1-->
+  <joint name="right_finger1_base_joint" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="160.0" lower="0" upper="3.14" velocity="0.5"/>
+    <parent link="right_hand_link"/>
+    <child link="right_finger1_base_link"/>
+    <origin xyz="0 -0.025 0" rpy="0 1.57 0"/>
+  </joint>
+  <!-- finger 2-->
+  
+  <!-- finger 3 -->
   <joint name="right_finger3_joint1" type="revolute">
     <axis xyz="0 0 1"/>
     <limit effort="160.0" lower="0" upper="2.44" velocity="0.5"/>
