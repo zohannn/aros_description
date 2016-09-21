@@ -1,0 +1,567 @@
+<?xml version="1.0"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <library_effects>
+        <effect id="309-fx">
+            <profile_COMMON>
+                <technique sid="common">
+                    <phong>
+                        <ambient>
+                            <color>0.85 0.85 1 1</color>
+                        </ambient>
+                        <diffuse>
+                            <color>0.85 0.85 1 1</color>
+                        </diffuse>
+                        <specular>
+                            <color>0.25 0.25 0.25 1</color>
+                        </specular>
+                        <emission>
+                            <color>0 0 0 1</color>
+                        </emission>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+        <effect id="310-fx">
+            <profile_COMMON>
+                <technique sid="common">
+                    <phong>
+                        <ambient>
+                            <color>0.85 0.85 1 1</color>
+                        </ambient>
+                        <diffuse>
+                            <color>0.85 0.85 1 1</color>
+                        </diffuse>
+                        <specular>
+                            <color>0.25 0.25 0.25 1</color>
+                        </specular>
+                        <emission>
+                            <color>0 0 0 1</color>
+                        </emission>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+        <effect id="311-fx">
+            <profile_COMMON>
+                <technique sid="common">
+                    <phong>
+                        <ambient>
+                            <color>0.85 0.85 1 1</color>
+                        </ambient>
+                        <diffuse>
+                            <color>0.85 0.85 1 1</color>
+                        </diffuse>
+                        <specular>
+                            <color>0.25 0.25 0.25 1</color>
+                        </specular>
+                        <emission>
+                            <color>0 0 0 1</color>
+                        </emission>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+        <effect id="312-fx">
+            <profile_COMMON>
+                <technique sid="common">
+                    <phong>
+                        <ambient>
+                            <color>0.85 0.85 1 1</color>
+                        </ambient>
+                        <diffuse>
+                            <color>0.85 0.85 1 1</color>
+                        </diffuse>
+                        <specular>
+                            <color>0.25 0.25 0.25 1</color>
+                        </specular>
+                        <emission>
+                            <color>0 0 0 1</color>
+                        </emission>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+        <effect id="313-fx">
+            <profile_COMMON>
+                <technique sid="common">
+                    <phong>
+                        <ambient>
+                            <color>0.85 0.85 1 1</color>
+                        </ambient>
+                        <diffuse>
+                            <color>0.85 0.85 1 1</color>
+                        </diffuse>
+                        <specular>
+                            <color>0.25 0.25 0.25 1</color>
+                        </specular>
+                        <emission>
+                            <color>0 0 0 1</color>
+                        </emission>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+        <effect id="314-fx">
+            <profile_COMMON>
+                <technique sid="common">
+                    <phong>
+                        <ambient>
+                            <color>0.85 0.85 1 1</color>
+                        </ambient>
+                        <diffuse>
+                            <color>0.85 0.85 1 1</color>
+                        </diffuse>
+                        <specular>
+                            <color>0.25 0.25 0.25 1</color>
+                        </specular>
+                        <emission>
+                            <color>0 0 0 1</color>
+                        </emission>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+        <effect id="315-fx">
+            <profile_COMMON>
+                <technique sid="common">
+                    <phong>
+                        <ambient>
+                            <color>0.85 0.85 1 1</color>
+                        </ambient>
+                        <diffuse>
+                            <color>0.85 0.85 1 1</color>
+                        </diffuse>
+                        <specular>
+                            <color>0.25 0.25 0.25 1</color>
+                        </specular>
+                        <emission>
+                            <color>0 0 0 1</color>
+                        </emission>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+        <effect id="316-fx">
+            <profile_COMMON>
+                <technique sid="common">
+                    <phong>
+                        <ambient>
+                            <color>0.85 0.85 1 1</color>
+                        </ambient>
+                        <diffuse>
+                            <color>0.85 0.85 1 1</color>
+                        </diffuse>
+                        <specular>
+                            <color>0.25 0.25 0.25 1</color>
+                        </specular>
+                        <emission>
+                            <color>0 0 0 1</color>
+                        </emission>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+        <effect id="317-fx">
+            <profile_COMMON>
+                <technique sid="common">
+                    <phong>
+                        <ambient>
+                            <color>0.85 0.85 1 1</color>
+                        </ambient>
+                        <diffuse>
+                            <color>0.85 0.85 1 1</color>
+                        </diffuse>
+                        <specular>
+                            <color>0.25 0.25 0.25 1</color>
+                        </specular>
+                        <emission>
+                            <color>0 0 0 1</color>
+                        </emission>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+        <effect id="318-fx">
+            <profile_COMMON>
+                <technique sid="common">
+                    <phong>
+                        <ambient>
+                            <color>0.85 0.85 1 1</color>
+                        </ambient>
+                        <diffuse>
+                            <color>0.85 0.85 1 1</color>
+                        </diffuse>
+                        <specular>
+                            <color>0.25 0.25 0.25 1</color>
+                        </specular>
+                        <emission>
+                            <color>0 0 0 1</color>
+                        </emission>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+        <effect id="319-fx">
+            <profile_COMMON>
+                <technique sid="common">
+                    <phong>
+                        <ambient>
+                            <color>0.85 0.85 1 1</color>
+                        </ambient>
+                        <diffuse>
+                            <color>0.85 0.85 1 1</color>
+                        </diffuse>
+                        <specular>
+                            <color>0.25 0.25 0.25 1</color>
+                        </specular>
+                        <emission>
+                            <color>0 0 0 1</color>
+                        </emission>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+        <effect id="308-fx">
+            <profile_COMMON>
+                <technique sid="common">
+                    <phong>
+                        <ambient>
+                            <color>0.85 0.85 1 1</color>
+                        </ambient>
+                        <diffuse>
+                            <color>0.85 0.85 1 1</color>
+                        </diffuse>
+                        <specular>
+                            <color>0.25 0.25 0.25 1</color>
+                        </specular>
+                        <emission>
+                            <color>0 0 0 1</color>
+                        </emission>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+    </library_effects>
+    <library_materials>
+        <material id="309" name="309">
+            <instance_effect url="#309-fx"/>
+        </material>
+        <material id="310" name="310">
+            <instance_effect url="#310-fx"/>
+        </material>
+        <material id="311" name="311">
+            <instance_effect url="#311-fx"/>
+        </material>
+        <material id="312" name="312">
+            <instance_effect url="#312-fx"/>
+        </material>
+        <material id="313" name="313">
+            <instance_effect url="#313-fx"/>
+        </material>
+        <material id="314" name="314">
+            <instance_effect url="#314-fx"/>
+        </material>
+        <material id="315" name="315">
+            <instance_effect url="#315-fx"/>
+        </material>
+        <material id="316" name="316">
+            <instance_effect url="#316-fx"/>
+        </material>
+        <material id="317" name="317">
+            <instance_effect url="#317-fx"/>
+        </material>
+        <material id="318" name="318">
+            <instance_effect url="#318-fx"/>
+        </material>
+        <material id="319" name="319">
+            <instance_effect url="#319-fx"/>
+        </material>
+        <material id="308" name="308">
+            <instance_effect url="#308-fx"/>
+        </material>
+    </library_materials>
+    <library_geometries>
+        <geometry id="39" name="ARoS">
+            <mesh>
+                <source id="39-positions-1" name="position">
+                    <float_array id="39-positions-1-array" count="288">0.078001 0.203001 0.164001 0.078001 0.203001 0.0140011 -0.0780001 0.203001 0.164001 -0.0780001 0.203001 0.0140012 0.078001 -0.202999 0.164001 0.0780009 -0.202999 0.0140011 -0.078 -0.202999 0.164001 -0.078 -0.202999 0.0140011 0.0750002 0.0750004 -0.764001 0.0750002 0.0750004 -0.814001 0.0750002 -0.0750013 -0.764001 0.0750002 -0.0750013 -0.814001 0.600001 0.0750004 -0.764001 0.600001 0.0750004 -0.814001 0.600001 -0.0750013 -0.764001 0.600001 -0.0750013 -0.814001 0.0750003 0.05 0.761001 0.0750004 -0.0500004 0.761001 0.0750003 0.05 0.611001 0.0750004 -0.0500004 0.611001 -0.0750003 0.05 0.761001 -0.0750003 -0.0500004 0.761001 -0.0750003 0.05 0.611001 -0.0750004 -0.0500004 0.611001 -0.0750002 -0.2 0.586 -0.0750002 -0.2 0.535999 0.0750011 -0.2 0.586 0.0750011 -0.2 0.535999 -0.0750002 0.2 0.586 -0.0750002 0.2 0.535999 0.0750011 0.2 0.586 0.0750011 0.2 0.535999 0.0750339 -0.0999995 -0.764001 0.0750336 -0.2 -0.764001 -0.0750005 -0.0999992 -0.764005 -0.0750007 -0.2 -0.764005 0.0749998 -0.1 0.536004 0.0749995 -0.200001 0.536004 -0.0750346 -0.0999998 0.536 -0.0750348 -0.200001 0.536 0.0750347 0.200001 -0.764001 0.0750345 0.0999999 -0.764001 -0.0749996 0.200001 -0.764005 -0.0749998 0.1 -0.764005 0.0750007 0.2 0.536004 0.0750006 0.0999995 0.536004 -0.0750336 0.2 0.536 -0.0750338 0.0999997 0.536 -0.600001 0.0750016 -0.764001 -0.600001 0.0750016 -0.814001 -0.600001 -0.0750002 -0.764001 -0.600001 -0.0750002 -0.814001 -0.0749996 0.0750016 -0.764001 -0.0749996 0.0750016 -0.814001 -0.0749996 -0.0750002 -0.764001 -0.0749996 -0.0750002 -0.814001 -0.0781014 -0.249999 0.614002 -0.0781014 -0.252982 0.61367 0.0779999 -0.250002 0.614037 0.0779999 -0.252985 0.613705 -0.078 -0.200014 0.163964 -0.0779999 -0.202997 0.163633 0.0781014 -0.200017 0.163999 0.0781014 -0.203001 0.163667 0.0780599 0.249998 0.614002 0.07806 0.252984 0.613671 -0.0779991 0.250003 0.614022 -0.0779991 0.25299 0.61369 0.078001 0.200012 0.163979 0.0780011 0.202998 0.163647 -0.0780581 0.200017 0.163999 -0.078058 0.203003 0.163667 -0.0750009 0.0500001 0.814001 -0.0750009 0.0500001 0.764001 -0.0750009 -0.0500005 0.814001 -0.0750009 -0.0500005 0.764001 0.075 0.0500001 0.814001 0.075 0.0500001 0.764001 0.075 -0.0500005 0.814001 0.075 -0.0500005 0.764001 -0.0749996 0.0500013 0.611 -0.0749996 0.0500013 0.586 -0.0749996 -0.0499988 0.611 -0.0749996 -0.0499988 0.586 0.0750006 0.0500013 0.611 0.0750006 0.0500013 0.586 0.0750006 -0.0499988 0.611 0.0750006 -0.0499988 0.586 0.0750017 0.6 -0.764001 0.0750017 0.6 -0.814001 -0.0750017 0.6 -0.764001 -0.0750017 0.6 -0.814001 0.0750017 -0.600001 -0.764001 0.0750017 -0.600001 -0.814001 -0.0750017 -0.600001 -0.764001 -0.0750017 -0.600001 -0.814001 </float_array>
+                    <technique_common>
+                        <accessor source="#39-positions-1-array" count="96" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="39-normals-1" name="normal">
+                    <float_array id="39-normals-1-array" count="108">0 1 5.96046e-08 0 1 5.96046e-08 0 1 5.96046e-08 0 1 5.96046e-08 0 1 5.96046e-08 0 1 5.96046e-08 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 1.49012e-08 0 -1 1.49012e-08 0 -1 1.49012e-08 0 -1 1.49012e-08 0 -1 1.49012e-08 0 -1 1.49012e-08 0 0 -1 -5.96046e-08 0 -1 -5.96046e-08 0 -1 -5.96046e-08 0 -1 -5.96046e-08 0 -1 -5.96046e-08 0 -1 -5.96046e-08 -1.49012e-08 5.96046e-08 -1 -1.49012e-08 5.96046e-08 -1 -1.49012e-08 5.96046e-08 -1 -1.49012e-08 5.96046e-08 -1 -1.49012e-08 5.96046e-08 -1 -1.49012e-08 5.96046e-08 -1 2.98023e-08 -5.96046e-08 1 2.98023e-08 -5.96046e-08 1 2.98023e-08 -5.96046e-08 1 2.98023e-08 -5.96046e-08 1 2.98023e-08 -5.96046e-08 1 2.98023e-08 -5.96046e-08 1 </float_array>
+                    <technique_common>
+                        <accessor source="#39-normals-1-array" count="36" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="39-normals-2" name="normal">
+                    <float_array id="39-normals-2-array" count="108">-1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 4.21469e-08 1 -4.21469e-08 4.21469e-08 1 -4.21469e-08 4.21469e-08 1 -4.21469e-08 4.21469e-08 1 -4.21469e-08 4.21469e-08 1 -4.21469e-08 4.21469e-08 1 -4.21469e-08 -4.21469e-08 -1 4.21469e-08 -4.21469e-08 -1 4.21469e-08 -4.21469e-08 -1 4.21469e-08 -4.21469e-08 -1 4.21469e-08 -4.21469e-08 -1 4.21469e-08 -4.21469e-08 -1 4.21469e-08 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 </float_array>
+                    <technique_common>
+                        <accessor source="#39-normals-2-array" count="36" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="39-normals-3" name="normal">
+                    <float_array id="39-normals-3-array" count="108">1 -8.9407e-08 -4.17233e-07 1 -8.9407e-08 -4.17233e-07 1 -8.9407e-08 -4.17233e-07 1 -8.9407e-08 -4.17233e-07 1 -8.9407e-08 -4.17233e-07 1 -8.9407e-08 -4.17233e-07 3.8743e-07 -8.94069e-08 1 3.8743e-07 -8.94069e-08 1 3.8743e-07 -8.94069e-08 1 3.8743e-07 -8.94069e-08 1 3.8743e-07 -8.94069e-08 1 3.8743e-07 -8.94069e-08 1 -4.17233e-07 5.96046e-08 -1 -4.17233e-07 5.96046e-08 -1 -4.17233e-07 5.96046e-08 -1 -4.17233e-07 5.96046e-08 -1 -4.17233e-07 5.96046e-08 -1 -4.17233e-07 5.96046e-08 -1 -1 2.98023e-08 4.76837e-07 -1 2.98023e-08 4.76837e-07 -1 2.98023e-08 4.76837e-07 -1 2.98023e-08 4.76837e-07 -1 2.98023e-08 4.76837e-07 -1 2.98023e-08 4.76837e-07 -5.96046e-08 -1 -2.98023e-08 -5.96046e-08 -1 -2.98023e-08 -5.96046e-08 -1 -2.98023e-08 -5.96046e-08 -1 -2.98023e-08 -5.96046e-08 -1 -2.98023e-08 -5.96046e-08 -1 -2.98023e-08 5.96046e-08 1 5.96046e-08 5.96046e-08 1 5.96046e-08 5.96046e-08 1 5.96046e-08 5.96046e-08 1 5.96046e-08 5.96046e-08 1 5.96046e-08 5.96046e-08 1 5.96046e-08 </float_array>
+                    <technique_common>
+                        <accessor source="#39-normals-3-array" count="36" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="39-normals-4" name="normal">
+                    <float_array id="39-normals-4-array" count="108">0 -1 -1.19209e-07 0 -1 -1.19209e-07 0 -1 -1.19209e-07 0 -1 -1.19209e-07 0 -1 -1.19209e-07 0 -1 -1.19209e-07 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 -2.98023e-08 0 1 -2.98023e-08 0 1 -2.98023e-08 0 1 -2.98023e-08 0 1 -2.98023e-08 0 1 -2.98023e-08 0 0 1 1.19209e-07 0 1 1.19209e-07 0 1 1.19209e-07 0 1 1.19209e-07 0 1 1.19209e-07 0 1 1.19209e-07 -5.96046e-08 1.19209e-07 -1 -5.96046e-08 1.19209e-07 -1 -5.96046e-08 1.19209e-07 -1 -5.96046e-08 1.19209e-07 -1 -5.96046e-08 1.19209e-07 -1 -5.96046e-08 1.19209e-07 -1 -2.98023e-08 -1.19209e-07 1 -2.98023e-08 -1.19209e-07 1 -2.98023e-08 -1.19209e-07 1 -2.98023e-08 -1.19209e-07 1 -2.98023e-08 -1.19209e-07 1 -2.98023e-08 -1.19209e-07 1 </float_array>
+                    <technique_common>
+                        <accessor source="#39-normals-4-array" count="36" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="39-normals-5" name="normal">
+                    <float_array id="39-normals-5-array" count="108">2.6223e-05 5.11287e-07 -1 2.6223e-05 5.11287e-07 -1 2.6223e-05 5.11287e-07 -1 2.6223e-05 5.11287e-07 -1 2.6223e-05 5.11287e-07 -1 2.6223e-05 5.11287e-07 -1 1 -2.3151e-06 2.62543e-05 1 -2.3151e-06 2.62543e-05 1 -2.3151e-06 2.62543e-05 1 -2.3151e-06 2.62543e-05 1 -2.3151e-06 2.62543e-05 1 -2.3151e-06 2.62543e-05 -1 2.4233e-06 -2.62543e-05 -1 2.4233e-06 -2.62543e-05 -1 2.4233e-06 -2.62543e-05 -1 2.4233e-06 -2.62543e-05 -1 2.4233e-06 -2.62543e-05 -1 2.4233e-06 -2.62543e-05 -2.6223e-05 -5.11288e-07 1 -2.6223e-05 -5.11288e-07 1 -2.6223e-05 -5.11288e-07 1 -2.6223e-05 -5.11288e-07 1 -2.6223e-05 -5.11288e-07 1 -2.6223e-05 -5.11288e-07 1 -2.35438e-06 -1 -4.94093e-07 -2.35438e-06 -1 -4.94093e-07 -2.35438e-06 -1 -4.94093e-07 -2.35438e-06 -1 -4.94093e-07 -2.35438e-06 -1 -4.94093e-07 -2.35438e-06 -1 -4.94093e-07 2.38419e-06 1 4.94093e-07 2.38419e-06 1 4.94093e-07 2.38419e-06 1 4.94093e-07 2.38419e-06 1 4.94093e-07 2.38419e-06 1 4.94093e-07 2.38419e-06 1 4.94093e-07 </float_array>
+                    <technique_common>
+                        <accessor source="#39-normals-5-array" count="36" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="39-normals-6" name="normal">
+                    <float_array id="39-normals-6-array" count="108">2.61245e-05 3.31636e-07 -1 2.61245e-05 3.31636e-07 -1 2.61245e-05 3.31636e-07 -1 2.61245e-05 3.31636e-07 -1 2.61245e-05 3.31636e-07 -1 2.61245e-05 3.31636e-07 -1 1 -1.50095e-06 2.61157e-05 1 -1.50095e-06 2.61157e-05 1 -1.50095e-06 2.61157e-05 1 -1.50095e-06 2.61157e-05 1 -1.50095e-06 2.61157e-05 1 -1.50095e-06 2.61157e-05 -1 1.53872e-06 -2.61157e-05 -1 1.53872e-06 -2.61157e-05 -1 1.53872e-06 -2.61157e-05 -1 1.53872e-06 -2.61157e-05 -1 1.53872e-06 -2.61157e-05 -1 1.53872e-06 -2.61157e-05 -2.61245e-05 -3.31637e-07 1 -2.61245e-05 -3.31637e-07 1 -2.61245e-05 -3.31637e-07 1 -2.61245e-05 -3.31637e-07 1 -2.61245e-05 -3.31637e-07 1 -2.61245e-05 -3.31637e-07 1 -1.51992e-06 -1 -3.44653e-07 -1.51992e-06 -1 -3.44653e-07 -1.51992e-06 -1 -3.44653e-07 -1.51992e-06 -1 -3.44653e-07 -1.51992e-06 -1 -3.44653e-07 -1.51992e-06 -1 -3.44653e-07 1.54972e-06 1 3.44653e-07 1.54972e-06 1 3.44653e-07 1.54972e-06 1 3.44653e-07 1.54972e-06 1 3.44653e-07 1.54972e-06 1 3.44653e-07 1.54972e-06 1 3.44653e-07 </float_array>
+                    <technique_common>
+                        <accessor source="#39-normals-6-array" count="36" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="39-normals-7" name="normal">
+                    <float_array id="39-normals-7-array" count="108">-1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 4.21469e-08 1 -4.21469e-08 4.21469e-08 1 -4.21469e-08 4.21469e-08 1 -4.21469e-08 4.21469e-08 1 -4.21469e-08 4.21469e-08 1 -4.21469e-08 4.21469e-08 1 -4.21469e-08 -4.21469e-08 -1 4.21469e-08 -4.21469e-08 -1 4.21469e-08 -4.21469e-08 -1 4.21469e-08 -4.21469e-08 -1 4.21469e-08 -4.21469e-08 -1 4.21469e-08 -4.21469e-08 -1 4.21469e-08 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 </float_array>
+                    <technique_common>
+                        <accessor source="#39-normals-7-array" count="36" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="39-normals-8" name="normal">
+                    <float_array id="39-normals-8-array" count="108">-0.000223993 -0.110388 0.993889 -0.000223993 -0.110388 0.993889 -0.000223993 -0.110388 0.993889 -0.000223993 -0.110388 0.993889 -0.000223993 -0.110388 0.993889 -0.000223993 -0.110388 0.993889 -1 1.9908e-05 -0.00022316 -1 1.9908e-05 -0.00022316 -1 1.9908e-05 -0.00022316 -1 1.9908e-05 -0.00022316 -1 1.9908e-05 -0.00022316 -1 1.9908e-05 -0.00022316 1 -1.99378e-05 0.00022316 1 -1.99378e-05 0.00022316 1 -1.99378e-05 0.00022316 1 -1.99378e-05 0.00022316 1 -1.99378e-05 0.00022316 1 -1.99378e-05 0.00022316 0.000223994 0.110388 -0.993888 0.000223994 0.110388 -0.993888 0.000223994 0.110388 -0.993888 0.000223994 0.110388 -0.993888 0.000223994 0.110388 -0.993888 0.000223994 0.110388 -0.993888 4.77396e-06 -0.993889 -0.110388 4.77396e-06 -0.993889 -0.110388 4.77396e-06 -0.993889 -0.110388 4.77396e-06 -0.993889 -0.110388 4.77396e-06 -0.993889 -0.110388 4.77396e-06 -0.993889 -0.110388 -4.82798e-06 0.993889 0.110388 -4.82798e-06 0.993889 0.110388 -4.82798e-06 0.993889 0.110388 -4.82798e-06 0.993889 0.110388 -4.82798e-06 0.993889 0.110388 -4.82798e-06 0.993889 0.110388 </float_array>
+                    <technique_common>
+                        <accessor source="#39-normals-8-array" count="36" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="39-normals-9" name="normal">
+                    <float_array id="39-normals-9-array" count="108">0.000130199 0.110396 0.993888 0.000130199 0.110396 0.993888 0.000130199 0.110396 0.993888 0.000130199 0.110396 0.993888 0.000130199 0.110396 0.993888 0.000130199 0.110396 0.993888 1 -3.3319e-05 -0.000127256 1 -3.3319e-05 -0.000127256 1 -3.3319e-05 -0.000127256 1 -3.3319e-05 -0.000127256 1 -3.3319e-05 -0.000127256 1 -3.3319e-05 -0.000127256 -1 3.34084e-05 0.000127316 -1 3.34084e-05 0.000127316 -1 3.34084e-05 0.000127316 -1 3.34084e-05 0.000127316 -1 3.34084e-05 0.000127316 -1 3.34084e-05 0.000127316 -0.000130199 -0.110396 -0.993888 -0.000130199 -0.110396 -0.993888 -0.000130199 -0.110396 -0.993888 -0.000130199 -0.110396 -0.993888 -0.000130199 -0.110396 -0.993888 -0.000130199 -0.110396 -0.993888 1.91517e-05 0.993888 -0.110396 1.91517e-05 0.993888 -0.110396 1.91517e-05 0.993888 -0.110396 1.91517e-05 0.993888 -0.110396 1.91517e-05 0.993888 -0.110396 1.91517e-05 0.993888 -0.110396 -1.91759e-05 -0.993888 0.110396 -1.91759e-05 -0.993888 0.110396 -1.91759e-05 -0.993888 0.110396 -1.91759e-05 -0.993888 0.110396 -1.91759e-05 -0.993888 0.110396 -1.91759e-05 -0.993888 0.110396 </float_array>
+                    <technique_common>
+                        <accessor source="#39-normals-9-array" count="36" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="39-normals-10" name="normal">
+                    <float_array id="39-normals-10-array" count="108">-1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 4.21469e-08 1 -4.21469e-08 4.21469e-08 1 -4.21469e-08 4.21469e-08 1 -4.21469e-08 4.21469e-08 1 -4.21469e-08 4.21469e-08 1 -4.21469e-08 4.21469e-08 1 -4.21469e-08 -4.21469e-08 -1 4.21469e-08 -4.21469e-08 -1 4.21469e-08 -4.21469e-08 -1 4.21469e-08 -4.21469e-08 -1 4.21469e-08 -4.21469e-08 -1 4.21469e-08 -4.21469e-08 -1 4.21469e-08 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 </float_array>
+                    <technique_common>
+                        <accessor source="#39-normals-10-array" count="36" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="39-normals-11" name="normal">
+                    <float_array id="39-normals-11-array" count="108">-1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 4.21469e-08 1 -4.21469e-08 4.21469e-08 1 -4.21469e-08 4.21469e-08 1 -4.21469e-08 4.21469e-08 1 -4.21469e-08 4.21469e-08 1 -4.21469e-08 4.21469e-08 1 -4.21469e-08 -4.21469e-08 -1 4.21469e-08 -4.21469e-08 -1 4.21469e-08 -4.21469e-08 -1 4.21469e-08 -4.21469e-08 -1 4.21469e-08 -4.21469e-08 -1 4.21469e-08 -4.21469e-08 -1 4.21469e-08 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 </float_array>
+                    <technique_common>
+                        <accessor source="#39-normals-11-array" count="36" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="39-normals-12" name="normal">
+                    <float_array id="39-normals-12-array" count="108">0 1 5.96046e-08 0 1 5.96046e-08 0 1 5.96046e-08 0 1 5.96046e-08 0 1 5.96046e-08 0 1 5.96046e-08 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 1.49012e-08 0 -1 1.49012e-08 0 -1 1.49012e-08 0 -1 1.49012e-08 0 -1 1.49012e-08 0 -1 1.49012e-08 0 0 -1 -5.96046e-08 0 -1 -5.96046e-08 0 -1 -5.96046e-08 0 -1 -5.96046e-08 0 -1 -5.96046e-08 0 -1 -5.96046e-08 -1.49012e-08 5.96046e-08 -1 -1.49012e-08 5.96046e-08 -1 -1.49012e-08 5.96046e-08 -1 -1.49012e-08 5.96046e-08 -1 -1.49012e-08 5.96046e-08 -1 -1.49012e-08 5.96046e-08 -1 2.98023e-08 -5.96046e-08 1 2.98023e-08 -5.96046e-08 1 2.98023e-08 -5.96046e-08 1 2.98023e-08 -5.96046e-08 1 2.98023e-08 -5.96046e-08 1 2.98023e-08 -5.96046e-08 1 </float_array>
+                    <technique_common>
+                        <accessor source="#39-normals-12-array" count="36" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="39-vertices">
+                    <input semantic="POSITION" source="#39-positions-1"/>
+                </vertices>
+                <triangles count="12" material="309">
+                    <input offset="0" semantic="VERTEX" source="#39-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#39-normals-1"/>
+                    <p>0 0 1 1 2 2 2 3 1 4 3 5 1 6 0 7 4 8 1 9 4 10 5 11 2 12 3 13 6 14 6 15 3 16 7 17 6 18 7 19 4 20 4 21 7 22 5 23 3 24 1 25 7 26 7 27 1 28 5 29 0 30 2 31 6 32 0 33 6 34 4 35</p>
+                </triangles>
+                <triangles count="12" material="310">
+                    <input offset="0" semantic="VERTEX" source="#39-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#39-normals-2"/>
+                    <p>8 0 9 1 10 2 10 3 9 4 11 5 9 6 8 7 12 8 9 9 12 10 13 11 10 12 11 13 14 14 14 15 11 16 15 17 14 18 15 19 12 20 12 21 15 22 13 23 11 24 9 25 15 26 15 27 9 28 13 29 8 30 10 31 14 32 8 33 14 34 12 35</p>
+                </triangles>
+                <triangles count="12" material="311">
+                    <input offset="0" semantic="VERTEX" source="#39-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#39-normals-3"/>
+                    <p>16 0 17 1 18 2 18 3 17 4 19 5 17 6 16 7 20 8 17 9 20 10 21 11 18 12 19 13 22 14 22 15 19 16 23 17 22 18 23 19 20 20 20 21 23 22 21 23 19 24 17 25 23 26 23 27 17 28 21 29 16 30 18 31 22 32 16 33 22 34 20 35</p>
+                </triangles>
+                <triangles count="12" material="312">
+                    <input offset="0" semantic="VERTEX" source="#39-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#39-normals-4"/>
+                    <p>24 0 25 1 26 2 26 3 25 4 27 5 25 6 24 7 28 8 25 9 28 10 29 11 26 12 27 13 30 14 30 15 27 16 31 17 30 18 31 19 28 20 28 21 31 22 29 23 27 24 25 25 31 26 31 27 25 28 29 29 24 30 26 31 30 32 24 33 30 34 28 35</p>
+                </triangles>
+                <triangles count="12" material="313">
+                    <input offset="0" semantic="VERTEX" source="#39-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#39-normals-5"/>
+                    <p>32 0 33 1 34 2 34 3 33 4 35 5 33 6 32 7 36 8 33 9 36 10 37 11 34 12 35 13 38 14 38 15 35 16 39 17 38 18 39 19 36 20 36 21 39 22 37 23 35 24 33 25 39 26 39 27 33 28 37 29 32 30 34 31 38 32 32 33 38 34 36 35</p>
+                </triangles>
+                <triangles count="12" material="314">
+                    <input offset="0" semantic="VERTEX" source="#39-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#39-normals-6"/>
+                    <p>40 0 41 1 42 2 42 3 41 4 43 5 41 6 40 7 44 8 41 9 44 10 45 11 42 12 43 13 46 14 46 15 43 16 47 17 46 18 47 19 44 20 44 21 47 22 45 23 43 24 41 25 47 26 47 27 41 28 45 29 40 30 42 31 46 32 40 33 46 34 44 35</p>
+                </triangles>
+                <triangles count="12" material="315">
+                    <input offset="0" semantic="VERTEX" source="#39-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#39-normals-7"/>
+                    <p>48 0 49 1 50 2 50 3 49 4 51 5 49 6 48 7 52 8 49 9 52 10 53 11 50 12 51 13 54 14 54 15 51 16 55 17 54 18 55 19 52 20 52 21 55 22 53 23 51 24 49 25 55 26 55 27 49 28 53 29 48 30 50 31 54 32 48 33 54 34 52 35</p>
+                </triangles>
+                <triangles count="12" material="316">
+                    <input offset="0" semantic="VERTEX" source="#39-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#39-normals-8"/>
+                    <p>56 0 57 1 58 2 58 3 57 4 59 5 57 6 56 7 60 8 57 9 60 10 61 11 58 12 59 13 62 14 62 15 59 16 63 17 62 18 63 19 60 20 60 21 63 22 61 23 59 24 57 25 63 26 63 27 57 28 61 29 56 30 58 31 62 32 56 33 62 34 60 35</p>
+                </triangles>
+                <triangles count="12" material="317">
+                    <input offset="0" semantic="VERTEX" source="#39-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#39-normals-9"/>
+                    <p>64 0 65 1 66 2 66 3 65 4 67 5 65 6 64 7 68 8 65 9 68 10 69 11 66 12 67 13 70 14 70 15 67 16 71 17 70 18 71 19 68 20 68 21 71 22 69 23 67 24 65 25 71 26 71 27 65 28 69 29 64 30 66 31 70 32 64 33 70 34 68 35</p>
+                </triangles>
+                <triangles count="12" material="318">
+                    <input offset="0" semantic="VERTEX" source="#39-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#39-normals-10"/>
+                    <p>72 0 73 1 74 2 74 3 73 4 75 5 73 6 72 7 76 8 73 9 76 10 77 11 74 12 75 13 78 14 78 15 75 16 79 17 78 18 79 19 76 20 76 21 79 22 77 23 75 24 73 25 79 26 79 27 73 28 77 29 72 30 74 31 78 32 72 33 78 34 76 35</p>
+                </triangles>
+                <triangles count="12" material="319">
+                    <input offset="0" semantic="VERTEX" source="#39-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#39-normals-11"/>
+                    <p>80 0 81 1 82 2 82 3 81 4 83 5 81 6 80 7 84 8 81 9 84 10 85 11 82 12 83 13 86 14 86 15 83 16 87 17 86 18 87 19 84 20 84 21 87 22 85 23 83 24 81 25 87 26 87 27 81 28 85 29 80 30 82 31 86 32 80 33 86 34 84 35</p>
+                </triangles>
+                <triangles count="12" material="308">
+                    <input offset="0" semantic="VERTEX" source="#39-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#39-normals-12"/>
+                    <p>88 0 89 1 90 2 90 3 89 4 91 5 89 6 88 7 92 8 89 9 92 10 93 11 90 12 91 13 94 14 94 15 91 16 95 17 94 18 95 19 92 20 92 21 95 22 93 23 91 24 89 25 95 26 95 27 89 28 93 29 88 30 90 31 94 32 88 33 94 34 92 35</p>
+                </triangles>
+            </mesh>
+        </geometry>
+    </library_geometries>
+    <library_visual_scenes>
+        <visual_scene id="0" name="0">
+            <node id="node-1" name="Box">
+                <matrix>-1.19209e-07 -1 -1.53507e-09 4.15 1 -1.19209e-07 1.47491e-09 -0.45 -1.47491e-09 -1.53507e-09 1 1 0 0 0 1</matrix>
+            </node>
+            <node id="node-2" name="Cuboid">
+                <matrix>1 0 0 4.295 0 1 0 0.312 0 0 1 0.927 0 0 0 1</matrix>
+            </node>
+            <node id="node-3" name="Cuboid0">
+                <matrix>1 0 0 4.295 0 1 0 0.0750002 0 0 1 0.927 0 0 0 1</matrix>
+            </node>
+            <node id="node-4" name="Cuboid1">
+                <matrix>1 0 0 4.245 0 1 0 0.0750002 0 0 1 0.927 0 0 0 1</matrix>
+            </node>
+            <node id="node-5" name="Cuboid2">
+                <matrix>1 0 0 4.245 0 1 0 0.312 0 0 1 0.927 0 0 0 1</matrix>
+            </node>
+            <node id="node-6" name="Cuboid3">
+                <matrix>1 0 0 4.295 0 1 0 0.287 0 0 1 0.927 0 0 0 1</matrix>
+            </node>
+            <node id="node-7" name="Cuboid4">
+                <matrix>1 0 0 4.245 0 1 0 0.287 0 0 1 0.927 0 0 0 1</matrix>
+            </node>
+            <node id="node-8" name="Cuboid5">
+                <matrix>1 0 0 4.295 0 1 0 0.262 0 0 1 0.927 0 0 0 1</matrix>
+            </node>
+            <node id="node-9" name="Cuboid6">
+                <matrix>1 0 0 4.245 0 1 0 0.262 0 0 1 0.927 0 0 0 1</matrix>
+            </node>
+            <node id="node-10" name="ARoS">
+                <matrix>1 0 0 0 0 1 0 0 0 0 1 0.814 0 0 0 1</matrix>
+                <instance_geometry url="#39">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="309" target="#309"/>
+                            <instance_material symbol="310" target="#310"/>
+                            <instance_material symbol="311" target="#311"/>
+                            <instance_material symbol="312" target="#312"/>
+                            <instance_material symbol="313" target="#313"/>
+                            <instance_material symbol="314" target="#314"/>
+                            <instance_material symbol="315" target="#315"/>
+                            <instance_material symbol="316" target="#316"/>
+                            <instance_material symbol="317" target="#317"/>
+                            <instance_material symbol="318" target="#318"/>
+                            <instance_material symbol="319" target="#319"/>
+                            <instance_material symbol="308" target="#308"/>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+            <node id="node-11" name="BlueColumn">
+                <matrix>1 0 0 4.27 0 -1.19209e-07 -1 0.194999 0 1 -1.19209e-07 0.975999 0 0 0 1</matrix>
+            </node>
+            <node id="node-12" name="GreenColumn">
+                <matrix>0.766044 0 -0.642788 3.81999 0.642788 -2.38419e-07 0.766045 -0.829999 -5.96046e-08 -1 -2.38419e-07 0.950001 0 0 0 1</matrix>
+            </node>
+            <node id="node-13" name="MagentaColumn">
+                <matrix>-1.19209e-07 0 1 3.975 0 1 0 -1.175 -1 0 -1.19209e-07 0.9574 0 0 0 1</matrix>
+            </node>
+            <node id="node-14" name="RedColumn">
+                <matrix>-4.76837e-07 -0.707107 0.707107 3.84499 -2.08616e-07 0.707107 0.707107 0.17 -1 2.08616e-07 -4.76837e-07 0.950001 0 0 0 1</matrix>
+            </node>
+            <node id="node-15" name="Nut1">
+                <matrix>1 0 0 4.05 0 1 0 0.0799997 0 0 1 0.92 0 0 0 1</matrix>
+            </node>
+            <node id="node-16" name="Nut2">
+                <matrix>1 0 0 3.925 0 1 0 -0.645001 0 0 1 0.92 0 0 0 1</matrix>
+            </node>
+            <node id="node-17" name="Wheel1">
+                <matrix>1 0 0 4.195 0 1 0 -0.969999 0 0 1 0.92 0 0 0 1</matrix>
+            </node>
+            <node id="node-18" name="Wheel2">
+                <matrix>1 0 0 3.795 0 1 0 -0.369999 0 0 1 0.92 0 0 0 1</matrix>
+            </node>
+            <node id="node-19" name="customizableTable">
+                <matrix>1 0 0 4 0 1 0 -0.5 0 0 1 0.85 0 0 0 1</matrix>
+            </node>
+            <node id="node-20" name="Base">
+                <matrix>0 1 0.000501961 4.15 0 -0.00050199 1 -0.449986 1 0 0 1.113 0 0 0 1</matrix>
+            </node>
+        </visual_scene>
+    </library_visual_scenes>
+    <scene>
+        <instance_visual_scene url="#0"/>
+    </scene>
+</COLLADA>
