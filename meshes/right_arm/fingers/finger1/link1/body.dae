@@ -94,7 +94,7 @@
                 <matrix>1 0 0 4.7 0 1 0 -0.475 0 0 1 0.813999 0 0 0 1</matrix>
             </node>
             <node id="node-11" name="Right_Barretthand_fingerLink0">
-                <matrix>1 -0 0 -3.33786e-06 0 1 7.45058e-09 -1.19209e-06 -0 -7.45058e-09 1 -1.19209e-06 0 0 0 1</matrix>
+                <matrix>-4.88758e-06 0.0862523 -0.996273 0.00165199 -0.000298865 0.996273 0.0862523 0.0334614 1 0.000298176 2.08616e-05 -3.45707e-06 0 0 0 1</matrix>
                 <instance_geometry url="#207">
                     <bind_material>
                         <technique_common>
