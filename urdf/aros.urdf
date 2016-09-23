@@ -53,7 +53,7 @@
     </visual>
   </link>
   
-  <!-- the right arm -->
+  <!-- right arm -->
   
    <link name="right_arm0_link">
     <visual>
@@ -593,6 +593,520 @@
     <child link="right_finger3_tip_link"/>
     <origin xyz="-0.028 0.022 0" rpy="0 0 1.97"/>
   </joint>
+  
+ <!-- left arm -->
+  
+   <link name="left_arm0_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/arm/link0/body.dae" />
+      </geometry>
+      <!-- <origin xyz="4.7 -0.325 1.5" rpy="0 0 0" /> --> 
+    </visual>
+     
+    <collision>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/arm/link0/link.dae" />
+      </geometry>
+       <!-- <origin xyz="4.7 -0.325 1.5" rpy="0 0 0" /> --> 
+    </collision>
+  </link>
+  
+  <link name="left_arm1_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/arm/link1/body.dae" />
+      </geometry>
+      <!-- <origin xyz="4.7 -0.125 1.5" rpy="0 0 0" /> -->  
+  </visual>
+     
+    <collision>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/arm/link1/link.dae" />
+      </geometry>
+       <!-- <origin xyz="4.7 -0.125 1.5" rpy="0 0 0" /> --> 
+    </collision>
+  </link>
+  
+  <link name="left_arm2_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/arm/link2/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.75 -0.07068 1.454" rpy="0 0 0" /> --> 
+   </visual>
+
+     <collision>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/arm/link2/link.dae" />
+      </geometry>
+       <!-- <origin xyz="4.75 -0.07068 1.454" rpy="0 0 0" /> --> 
+    </collision>
+  </link>
+  
+  <link name="left_arm3_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/arm/link3/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.7 0.234 1.51" rpy="0 0 0" /> --> 
+   </visual>
+    
+    <collision>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/arm/link3/link.dae" />
+      </geometry>
+      <!-- <origin xyz="4.7 0.234 1.51" rpy="0 0 0" /> -->
+    </collision>
+  </link>
+  
+  <link name="left_arm4_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/arm/link4/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.7 0.411 1.5" rpy="0 0 0" /> --> 
+   </visual>
+    
+    <collision>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/arm/link4/link.dae" />
+      </geometry>
+      <!-- <origin xyz="4.7 0.411 1.5" rpy="0 0 0" /> --> 
+    </collision>
+  </link>
+  
+  <link name="left_arm5_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/arm/link5/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.7 0.6122 1.5" rpy="0 0 0" /> --> 
+   </visual>
+     
+    <collision>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/arm/link5/link.dae" />
+      </geometry>
+      <!-- <origin xyz="4.7 0.6122 1.5" rpy="0 0 0" /> --> 
+    </collision>
+  </link>
+  
+  <link name="left_arm6_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/arm/link6/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.7 0.6 1.5" rpy="0 0 0" /> --> 
+   </visual>
+    
+    <collision>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/arm/link6/link.dae" />
+      </geometry>
+     <!-- <origin xyz="4.7 0.6 1.5" rpy="0 0 0" /> -->
+    </collision>
+  </link> 
+  
+  <link name="left_arm7_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/arm/link7/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.7 0.751 1.5" rpy="0 0 0" /> --> 
+   </visual>
+    
+    <collision>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/arm/link7/link.dae" />
+      </geometry>
+     <!-- <origin xyz="4.7 0.751 1.5" rpy="0 0 0" /> --> 
+    </collision>
+  </link>
+  
+  <link name="left_fts_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/fts/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.7 0.751 1.5" rpy="0 0 0" /> --> 
+   </visual>
+    
+    <collision>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/fts/link.dae" />
+      </geometry>
+     <!-- <origin xyz="4.7 0.751 1.5" rpy="0 0 0" /> --> 
+    </collision>
+  </link> 
+  
+  <link name="left_adapter_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/adapter/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.7 0.751 1.5" rpy="0 0 0" /> --> 
+   </visual>
+  </link> 
+  
+  <link name="left_hand_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/barrett_hand/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.7 0.751 1.5" rpy="0 0 0" /> --> 
+   </visual>
+    
+    <collision>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/barrett_hand/link.dae" />
+      </geometry>
+     <!-- <origin xyz="4.7 0.751 1.5" rpy="0 0 0" /> --> 
+    </collision>
+  </link> 
+  
+  <link name="left_hand_sensor_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/hand_sensor/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.7 0.751 1.5" rpy="0 0 0" /> --> 
+   </visual>
+  </link>
+  
+ <!-- finger 1 --> 
+  <link name="left_finger1_base_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/fingers/finger1/base/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.73 0.933 1.53" rpy="0 0 0" /> --> 
+   </visual>
+    
+     <collision>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/fingers/finger1/base/link.dae" />
+      </geometry>
+     <!-- <origin xyz="4.73 0.933 1.53" rpy="0 0 0" /> --> 
+    </collision>
+  </link> 
+  
+   <link name="left_finger1_1_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/fingers/finger1/link1/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.7 0.946 1.42" rpy="0 0 0" /> --> 
+   </visual>
+    
+    <collision>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/fingers/finger1/link1/link.dae" />
+      </geometry>
+      <!-- <origin xyz="4.7 0.946 1.42" rpy="0 0 0" /> --> 
+    </collision>
+  </link> 
+  
+   <link name="left_finger1_2_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/fingers/finger1/link2/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.7 0.946 1.42" rpy="0 0 0" /> --> 
+   </visual>
+    
+    <collision>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/fingers/finger1/link2/link.dae" />
+      </geometry>
+      <!-- <origin xyz="4.7 0.946 1.42" rpy="0 0 0" /> --> 
+    </collision>
+  </link> 
+  
+  <link name="left_finger1_tip_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/fingers/finger1/tip/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.7 0.965 1.37" rpy="0 0 0" /> --> 
+   </visual>
+  </link> 
+  
+  
+  <!-- finger 2 -->
+    <link name="left_finger2_base_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/fingers/finger2/base/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.675 0.933 1.53" rpy="0 0 0" /> --> 
+   </visual>
+      
+     <collision>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/fingers/finger2/base/link.dae" />
+      </geometry>
+     <!-- <origin xyz="4.675 0.933 1.53" rpy="0 0 0" /> -->
+    </collision>
+  </link>
+  
+  <link name="left_finger2_1_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/fingers/finger2/link1/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.7 0.946 1.42" rpy="0 0 0" /> --> 
+   </visual>
+    
+    <collision>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/fingers/finger2/link1/link.dae" />
+      </geometry>
+      <!-- <origin xyz="4.7 0.946 1.42" rpy="0 0 0" /> --> 
+    </collision>
+  </link> 
+  
+   <link name="left_finger2_2_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/fingers/finger2/link2/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.7 0.946 1.42" rpy="0 0 0" /> --> 
+   </visual>
+    
+    <collision>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/fingers/finger2/link2/link.dae" />
+      </geometry>
+      <!-- <origin xyz="4.7 0.946 1.42" rpy="0 0 0" /> --> 
+    </collision>
+  </link> 
+  
+  <link name="left_finger2_tip_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/fingers/finger2/tip/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.7 0.965 1.37" rpy="0 0 0" /> --> 
+   </visual>
+  </link> 
+
+  
+  <!-- finger 3 -->
+  
+  <link name="left_finger3_1_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/fingers/finger3/link1/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.7 0.946 1.42" rpy="0 0 0" /> --> 
+   </visual>
+    
+    <collision>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/fingers/finger3/link1/link.dae" />
+      </geometry>
+      <!-- <origin xyz="4.7 0.946 1.42" rpy="0 0 0" /> --> 
+    </collision>
+  </link> 
+  
+  <link name="left_finger3_2_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/fingers/finger3/link2/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.7 0.965 1.37" rpy="0 0 0" /> --> 
+   </visual>
+    
+    <collision>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/fingers/finger3/link2/link.dae" />
+      </geometry>
+      <!-- <origin xyz="4.7 0.965 1.37" rpy="0 0 0" /> --> 
+    </collision>
+  </link> 
+  
+  <link name="left_finger3_tip_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/fingers/finger3/tip/body.dae" />
+      </geometry> 
+      <!-- <origin xyz="4.7 0.965 1.37" rpy="0 0 0" /> --> 
+   </visual>
+  </link> 
+  
+  <joint name="torso_to_left_joint0" type="fixed">
+    <parent link="torso_link"/>
+    <child link="left_arm0_link"/>
+    <origin xyz="0 -0.045 0.297" rpy="1.57 -3.14 0" />
+  </joint>
+  
+  <joint name="left_joint0" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="160.0" lower="-1.57" upper="2.62" velocity="0.5"/>
+    <parent link="left_arm0_link"/>
+    <child link="left_arm1_link"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0" />
+  </joint>
+  
+  <joint name="left_joint1" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="160.0" lower="-1.66" upper="0.79" velocity="0.5"/>
+    <parent link="left_arm1_link"/>
+    <child link="left_arm2_link"/>
+    <origin xyz="0 0 0.14" rpy="1.57 1.57 0" />
+  </joint>
+  
+  <joint name="left_joint2" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="160.0" lower="-2.44" upper="1.57" velocity="0.5"/>
+    <parent link="left_arm2_link"/>
+    <child link="left_arm3_link"/>
+    <origin xyz="-0.195 0 0" rpy="-1.57 0 1.57" />
+  </joint>
+  
+  <joint name="left_joint3" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="160.0" lower="-2.88" upper="0.26" velocity="0.5"/>
+    <parent link="left_arm3_link"/>
+    <child link="left_arm4_link"/>
+    <origin xyz="0 0 0.2" rpy="1.57 1.57 0"/>
+  </joint>
+  
+  <joint name="left_joint4" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="160.0" lower="-2.88" upper="2.88" velocity="0.5"/>
+    <parent link="left_arm4_link"/>
+    <child link="left_arm5_link"/>
+    <origin xyz="-0.208 0 0" rpy="-1.57 0 1.57" />
+  </joint>
+  
+  <joint name="left_joint5" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="160.0" lower="-2.09" upper="2.09" velocity="0.5"/>
+    <parent link="left_arm5_link"/>
+    <child link="left_arm6_link"/>
+    <origin xyz="0 0 0.161" rpy="1.57 1.57 0"/>
+  </joint>
+  
+  <joint name="left_joint6" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="160.0" lower="-1.57" upper="2.88" velocity="0.5"/>
+    <parent link="left_arm6_link"/>
+    <child link="left_arm7_link"/>
+    <origin xyz="-0.053 0 0" rpy="-1.57 0 1.57" />
+  </joint>
+  
+  <joint name="left_fixed_joint1" type="fixed">
+    <parent link="left_arm7_link"/>
+    <child link="left_fts_link"/>
+    <origin xyz="0 0 0.065" rpy="-1.57 -1.57 0"/>
+  </joint>
+  
+  <joint name="left_fixed_joint2" type="fixed">
+    <parent link="left_fts_link"/>
+    <child link="left_adapter_link"/>
+    <origin xyz="0.04 0 0" rpy="0 0 0"/>
+  </joint>
+  
+  <joint name="left_fixed_joint3" type="fixed">
+    <parent link="left_adapter_link"/>
+    <child link="left_hand_link"/>
+    <origin xyz="0.06 0 0" rpy="0 0 0"/>
+  </joint>
+  
+  <joint name="left_fixed_joint4" type="fixed">
+    <parent link="left_hand_link"/>
+    <child link="left_hand_sensor_link"/>
+    <origin xyz="0.035 0 0" rpy="0 0 0"/>
+  </joint>
+  
+  <!-- finger 1-->
+  <joint name="left_finger1_base_joint" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="160.0" lower="0" upper="3.14" velocity="0.5"/>
+    <parent link="left_hand_link"/>
+    <child link="left_finger1_base_link"/>
+    <origin xyz="0 -0.025 0" rpy="0 1.57 0"/>
+  </joint>
+  
+  <joint name="left_finger1_joint1" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="160.0" lower="0" upper="2.44" velocity="0.5"/>
+    <parent link="left_finger1_base_link"/>
+    <child link="left_finger1_1_link"/>
+    <origin xyz="-0.05 0 0.036" rpy="0 1.57 1.57"/>
+  </joint>
+  
+  <joint name="left_finger1_joint2" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="160.0" lower="0" upper="0.79" velocity="0.5"/>
+    <parent link="left_finger1_1_link"/>
+    <child link="left_finger1_2_link"/>
+    <origin xyz="-0.005 0.07 0" rpy="0 0 0"/>
+  </joint>
+  
+  <joint name="left_fixed_joint6" type="fixed">
+    <parent link="left_finger1_2_link"/>
+    <child link="left_finger1_tip_link"/>
+    <origin xyz="-0.028 0.022 0" rpy="0 0 1.97"/>
+  </joint>
+ 
+  <!-- finger 2-->
+  <joint name="left_finger2_base_joint" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="160.0" lower="-3.14" upper="0" velocity="0.5"/>
+    <parent link="left_hand_link"/>
+    <child link="left_finger2_base_link"/>
+    <origin xyz="0 0.025 0" rpy="0 1.57 0"/>
+  </joint>
+  
+  <joint name="left_finger2_joint1" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="160.0" lower="0" upper="2.44" velocity="0.5"/>
+    <parent link="left_finger2_base_link"/>
+    <child link="left_finger2_1_link"/>
+    <origin xyz="-0.05 0 0.036" rpy="0 1.57 1.57"/>
+  </joint>
+  
+  <joint name="left_finger2_joint2" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="160.0" lower="0" upper="0.79" velocity="0.5"/>
+    <parent link="left_finger2_1_link"/>
+    <child link="left_finger2_2_link"/>
+    <origin xyz="-0.005 0.07 0" rpy="0 0 0"/>
+  </joint>
+  
+  <joint name="left_fixed_joint7" type="fixed">
+    <parent link="left_finger2_2_link"/>
+    <child link="left_finger2_tip_link"/>
+    <origin xyz="-0.028 0.022 0" rpy="0 0 1.97"/>
+  </joint>
+  
+  <!-- finger 3 -->
+  <joint name="left_finger3_joint1" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="160.0" lower="0" upper="2.44" velocity="0.5"/>
+    <parent link="left_hand_link"/>
+    <child link="left_finger3_1_link"/>
+    <origin xyz="0.03 0 -0.05" rpy="1.57 3.14 0"/>
+  </joint>
+  
+  <joint name="left_finger3_joint2" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="160.0" lower="0" upper="0.79" velocity="0.5"/>
+    <parent link="left_finger3_1_link"/>
+    <child link="left_finger3_2_link"/>
+    <origin xyz="-0.005 0.07 0" rpy="0 0 0"/>
+  </joint>
+  
+   <joint name="left_fixed_joint5" type="fixed">
+    <parent link="left_finger3_2_link"/>
+    <child link="left_finger3_tip_link"/>
+    <origin xyz="-0.028 0.022 0" rpy="0 0 1.97"/>
+  </joint>
+  
+  
 
   
 </robot>
