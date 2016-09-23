@@ -234,6 +234,13 @@
       </geometry> 
       <!-- <origin xyz="4.7 0.751 1.5" rpy="0 0 0" /> --> 
    </visual>
+    
+     <collision>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/hand_sensor/link.dae" />
+      </geometry>
+     <!-- <origin xyz="4.7 0.751 1.5" rpy="0 0 0" /> --> 
+    </collision>
   </link>
   
  <!-- finger 1 --> 
@@ -772,6 +779,13 @@
       </geometry> 
       <!-- <origin xyz="4.7 0.751 1.5" rpy="0 0 0" /> --> 
    </visual>
+    
+     <collision>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/hand_sensor/link.dae" />
+      </geometry>
+     <!-- <origin xyz="4.7 0.751 1.5" rpy="0 0 0" /> --> 
+    </collision>
   </link>
   
  <!-- finger 1 --> 
