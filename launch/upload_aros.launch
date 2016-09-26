@@ -1,6 +1,7 @@
 <launch>
 
-  <arg name="model" default="$(find aros_description)/urdf/aros.urdf"/>
+  <!-- <arg name="model" default="$(find aros_description)/urdf/aros.urdf"/> -->
+  <arg name="model" default="$(find aros_description)/urdf/robot/aros.urdf.xacro"/> 
   <arg name="gui" default="true" />
   <arg name="rvizconfig" default="$(find aros_description)/rviz/urdf.rviz" />
 

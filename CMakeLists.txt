@@ -184,3 +184,6 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+add_executable(aros_parser test/parser.cpp)
+target_link_libraries(aros_parser ${catkin_LIBRARIES})
