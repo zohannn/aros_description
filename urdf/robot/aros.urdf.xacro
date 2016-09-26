@@ -5,8 +5,44 @@
        xmlns:xacro="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface"
        name="aros" >
 	
+	<xacro:include filename="$(find aros_description)/urdf/common.xacro" />
 	<xacro:include filename="$(find aros_description)/urdf/base/base.urdf.xacro" />
+	<xacro:include filename="$(find aros_description)/urdf/fixed/fixed.urdf.xacro" />
+	<xacro:include filename="$(find aros_description)/urdf/arm/arm.urdf.xacro" />
 	
 	<xacro:aros_base_v0 name="base"/>
+	
+   <xacro:aros_fixed_v0 name="torso" parent="base">
+    <origin xyz="${torso_x} ${torso_y} ${torso_z}" rpy="${torso_roll} ${torso_pitch} ${torso_yaw}" />
+   </xacro:aros_fixed_v0>
+	
+   <xacro:aros_fixed_v0 name="pan_tilt" parent="torso">
+    <origin xyz="${pan_tilt_x} ${pan_tilt_y} ${pan_tilt_z}" rpy="${pan_tilt_roll} ${pan_tilt_pitch} ${pan_tilt_yaw}" />
+   </xacro:aros_fixed_v0>
+	
+   <xacro:aros_fixed_v0 name="neck" parent="pan_tilt">
+    <origin xyz="${neck_x} ${neck_y} ${neck_z}" rpy="${neck_roll} ${neck_pitch} ${neck_yaw}" />
+   </xacro:aros_fixed_v0>
+	
+   <xacro:aros_fixed_v0 name="vision" parent="neck">
+    <origin xyz="${vision_x} ${vision_y} ${vision_z}" rpy="${vision_roll} ${vision_pitch} ${vision_yaw}" />
+   </xacro:aros_fixed_v0>
+	
+	<!-- Right arm-->
+   <xacro:aros_arm_v0 prefix="right" name="arm0" parent="torso" link="0" revolute="false" lower="0" upper="0">
+    <origin xyz="${right_arm0_x} ${right_arm0_y} ${right_arm0_z}" rpy="${right_arm0_roll} ${right_arm0_pitch} ${right_arm0_yaw}" />
+   </xacro:aros_arm_v0>
+	
+   <xacro:aros_arm_v0 prefix="right" name="arm1" parent="arm0" link="1" revolute="true" lower="${right_arm1_lower}" upper="${right_arm1_upper}">
+    <origin xyz="${right_arm1_x} ${right_arm1_y} ${right_arm1_z}" rpy="${right_arm1_roll} ${right_arm1_pitch} ${right_arm1_yaw}" />
+   </xacro:aros_arm_v0>
+	
+   <xacro:aros_arm_v0 prefix="right" name="arm2" parent="arm1" link="2" revolute="true" lower="${right_arm2_lower}" upper="${right_arm2_upper}">
+    <origin xyz="${right_arm2_x} ${right_arm2_y} ${right_arm2_z}" rpy="${right_arm2_roll} ${right_arm2_pitch} ${right_arm2_yaw}" />
+   </xacro:aros_arm_v0>
+	
+   <xacro:aros_arm_v0 prefix="right" name="arm3" parent="arm2" link="3" revolute="true" lower="${right_arm3_lower}" upper="${right_arm3_upper}">
+    <origin xyz="${right_arm3_x} ${right_arm3_y} ${right_arm3_z}" rpy="${right_arm3_roll} ${right_arm3_pitch} ${right_arm3_yaw}" />
+   </xacro:aros_arm_v0>
 
 </robot>

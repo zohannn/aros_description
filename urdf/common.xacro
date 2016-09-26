@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<robot>
+
+  <property name="M_PI" value="3.1415926535897931" />
+  <property name="VELOCITY" value="0.5" />
+  <property name="EFFORT" value="160.0" />
+	
+  <!-- ********** Torso ********** -->
+  <!-- Torso Location: Add to the transform from base to torso -->
+  <property name="torso_x" value="0.0" />
+  <property name="torso_y" value="0.0" />
+  <property name="torso_z" value="1.203" />
+  <property name="torso_roll" value="0.0" />
+  <property name="torso_pitch" value="0.0" />
+  <property name="torso_yaw" value="0.0" />
+	
+  <!-- ********** Pan tilt ********** -->
+  <!-- Pan tilt Location: Add to the transform from torso to pan_tilt-->
+  <property name="pan_tilt_x" value="0.0" />
+  <property name="pan_tilt_y" value="0.005" />
+  <property name="pan_tilt_z" value="0.447" />
+  <property name="pan_tilt_roll" value="0.0" />
+  <property name="pan_tilt_pitch" value="0.0" />
+  <property name="pan_tilt_yaw" value="0.0" />
+	
+  <!-- ********** Neck ********** -->
+  <!-- Neck Location: Add to the transform from pan_tilt to neck-->
+  <property name="neck_x" value="0.0" />
+  <property name="neck_y" value="0.0" />
+  <property name="neck_z" value="0.044" />
+  <property name="neck_roll" value="0.0" />
+  <property name="neck_pitch" value="0.0" />
+  <property name="neck_yaw" value="0.0" />
+	
+  <!-- ********** Vision ********** -->
+  <!-- Vision Location: Add to the transform from neck to vision-->
+  <property name="vision_x" value="0.0" />
+  <property name="vision_y" value="0.0" />
+  <property name="vision_z" value="0.0503" />
+  <property name="vision_roll" value="0.0" />
+  <property name="vision_pitch" value="0.0" />
+  <property name="vision_yaw" value="0.0" />
+	
+  <!-- ********** Right arm link 0 ********** -->
+  <!-- Right arm link 0 Location: Add to the transform from torso to right arm 0-->
+  <property name="right_arm0_x" value="0.0" />
+  <property name="right_arm0_y" value="0.045" />
+  <property name="right_arm0_z" value="0.297" />
+  <property name="right_arm0_roll" value="-${M_PI/2}" />
+  <property name="right_arm0_pitch" value="-${M_PI}" />
+  <property name="right_arm0_yaw" value="0.0" />	
+	
+  <!-- ********** Right arm link 1 ********** -->
+  <!-- Right arm link 1 Location: Add to the transform from torso to right arm 1-->
+  <property name="right_arm1_x" value="0.0" />
+  <property name="right_arm1_y" value="0.0" />
+  <property name="right_arm1_z" value="0.2" />
+  <property name="right_arm1_roll" value="0.0" />
+  <property name="right_arm1_pitch" value="0.0" />
+  <property name="right_arm1_yaw" value="0.0" />		
+  <!-- Right arm joint 1 limits-->	
+  <property name="right_arm1_lower" value="-${153.0*M_PI/180.0}" />
+  <property name="right_arm1_upper" value="${M_PI/2}" />
+	
+	  <!-- ********** Right arm link 1 ********** -->
+  <!-- Right arm link 1 Location: Add to the transform from torso to right arm 1-->
+  <property name="right_arm1_x" value="0.0" />
+  <property name="right_arm1_y" value="0.0" />
+  <property name="right_arm1_z" value="0.2" />
+  <property name="right_arm1_roll" value="0.0" />
+  <property name="right_arm1_pitch" value="0.0" />
+  <property name="right_arm1_yaw" value="0.0" />		
+  <!-- Right arm joint 1 limits-->	
+  <property name="right_arm1_lower" value="-${153.0*M_PI/180.0}" />
+  <property name="right_arm1_upper" value="${M_PI/2}" />
+	
+  <!-- ********** Right arm link 2 ********** -->
+  <!-- Right arm link 2 Location: Add to the transform from torso to right arm 2-->
+  <property name="right_arm2_x" value="0.0" />
+  <property name="right_arm2_y" value="0.0" />
+  <property name="right_arm2_z" value="0.14" />
+  <property name="right_arm2_roll" value="${M_PI/2}" />
+  <property name="right_arm2_pitch" value="${M_PI/2}" />
+  <property name="right_arm2_yaw" value="0.0" />		
+  <!-- Right arm joint 2 limits-->	
+  <property name="right_arm2_lower" value="-${95*M_PI/180.0}" />
+  <property name="right_arm2_upper" value="${M_PI/4}" />
+	
+  <!-- ********** Right arm link 3 ********** -->
+  <!-- Right arm link 3 Location: Add to the transform from torso to right arm 3-->
+  <property name="right_arm3_x" value="-0.195" />
+  <property name="right_arm3_y" value="0.0" />
+  <property name="right_arm3_z" value="0.0" />
+  <property name="right_arm3_roll" value="-${M_PI/2}" />
+  <property name="right_arm3_pitch" value="0.0" />
+  <property name="right_arm3_yaw" value="${M_PI/2}" />		
+  <!-- Right arm joint 3 limits-->	
+  <property name="right_arm3_lower" value="-${M_PI/2}" />
+  <property name="right_arm3_upper" value="${140*M_PI/180.0}" />
+  
+  </robot>

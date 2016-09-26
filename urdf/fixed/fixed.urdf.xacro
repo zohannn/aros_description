@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<robot xmlns:sensor="http://playerstage.sourceforge.net/gazebo/xmlschema/#sensor"
+       xmlns:controller="http://playerstage.sourceforge.net/gazebo/xmlschema/#controller"
+       xmlns:interface="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface"
+       xmlns:xacro="http://ros.org/wiki/xacro">
+	   
+<xacro:macro name="aros_fixed_v0" params="name parent *origin">
+    <link name="${name}_link">
+	 <visual>
+        <geometry>
+              <mesh filename="package://aros_description/meshes/${name}/body.dae" />
+        </geometry>
+      </visual>
+    </link>	
+	
+  <joint name="${parent}_to_${name}" type="fixed">
+    <parent link="${parent}_link"/>
+    <child link="${name}_link"/>
+    <insert_block name="origin" />
+  </joint>
+	
+	
+</xacro:macro>
+	
+</robot>
