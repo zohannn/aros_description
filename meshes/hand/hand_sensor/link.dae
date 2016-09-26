@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <library_effects>
+        <effect id="189-fx">
+            <profile_COMMON>
+                <technique sid="common">
+                    <phong>
+                        <ambient>
+                            <color>0.142857 0.142857 1 1</color>
+                        </ambient>
+                        <diffuse>
+                            <color>0.142857 0.142857 1 1</color>
+                        </diffuse>
+                        <specular>
+                            <color>0.15 0.15 0.15 1</color>
+                        </specular>
+                        <emission>
+                            <color>0 0 0 1</color>
+                        </emission>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+    </library_effects>
+    <library_materials>
+        <material id="189" name="189">
+            <instance_effect url="#189-fx"/>
+        </material>
+    </library_materials>
+    <library_geometries>
+        <geometry id="189" name="Right_BarrettHand_handSensor_respondable">
+            <mesh>
+                <source id="189-positions-1" name="position">
+                    <float_array id="189-positions-1-array" count="24">-0.00635704 -0.0232034 -0.0390498 0.00635703 -0.0232032 -0.0390497 -0.00635705 0.0232034 -0.0390498 0.00635703 0.0232034 -0.0390498 -0.00635704 -0.0232032 0.0390497 0.00635704 -0.0232032 0.0390498 -0.00635703 0.0232034 0.0390498 0.00635705 0.0232034 0.0390497 </float_array>
+                    <technique_common>
+                        <accessor source="#189-positions-1-array" count="8" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="189-normals-1" name="normal">
+                    <float_array id="189-normals-1-array" count="108">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 </float_array>
+                    <technique_common>
+                        <accessor source="#189-normals-1-array" count="36" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="189-vertices">
+                    <input semantic="POSITION" source="#189-positions-1"/>
+                </vertices>
+                <triangles count="12" material="189">
+                    <input offset="0" semantic="VERTEX" source="#189-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#189-normals-1"/>
+                    <p>1 0 0 1 3 2 3 3 0 4 2 5 0 6 1 7 5 8 0 9 5 10 4 11 3 12 2 13 7 14 7 15 2 16 6 17 7 18 6 19 5 20 5 21 6 22 4 23 2 24 0 25 6 26 6 27 0 28 4 29 1 30 3 31 7 32 1 33 7 34 5 35</p>
+                </triangles>
+            </mesh>
+        </geometry>
+    </library_geometries>
+    <library_visual_scenes>
+        <visual_scene id="0" name="0">
+            <node id="node-1" name="Box">
+                <matrix>-1.19209e-07 -1 -1.53507e-09 4.15 1 -1.19209e-07 1.47491e-09 -0.45 -1.47491e-09 -1.53507e-09 1 1 0 0 0 1</matrix>
+            </node>
+            <node id="node-2" name="Cuboid">
+                <matrix>1 0 0 4.295 0 1 0 0.312 0 0 1 0.927 0 0 0 1</matrix>
+            </node>
+            <node id="node-3" name="Cuboid0">
+                <matrix>1 0 0 4.295 0 1 0 0.0750002 0 0 1 0.927 0 0 0 1</matrix>
+            </node>
+            <node id="node-4" name="Cuboid1">
+                <matrix>1 0 0 4.245 0 1 0 0.0750002 0 0 1 0.927 0 0 0 1</matrix>
+            </node>
+            <node id="node-5" name="Cuboid2">
+                <matrix>1 0 0 4.245 0 1 0 0.312 0 0 1 0.927 0 0 0 1</matrix>
+            </node>
+            <node id="node-6" name="Cuboid3">
+                <matrix>1 0 0 4.295 0 1 0 0.287 0 0 1 0.927 0 0 0 1</matrix>
+            </node>
+            <node id="node-7" name="Cuboid4">
+                <matrix>1 0 0 4.245 0 1 0 0.287 0 0 1 0.927 0 0 0 1</matrix>
+            </node>
+            <node id="node-8" name="Cuboid5">
+                <matrix>1 0 0 4.295 0 1 0 0.262 0 0 1 0.927 0 0 0 1</matrix>
+            </node>
+            <node id="node-9" name="Cuboid6">
+                <matrix>1 0 0 4.245 0 1 0 0.262 0 0 1 0.927 0 0 0 1</matrix>
+            </node>
+            <node id="node-10" name="ARoS">
+                <matrix>1 0 0 4.7 0 1 0 -0.475 0 0 1 0.813999 0 0 0 1</matrix>
+            </node>
+            <node id="node-11" name="Right_BarrettHand_handSensor_respondable">
+                <matrix>1 7.01572e-12 -1.03445e-08 0 -1.03445e-08 5.96046e-08 -1 4.17233e-07 -7.01483e-12 1 5.96046e-08 2.38419e-07 0 0 0 1</matrix>
+                <instance_geometry url="#189">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="189" target="#189"/>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+            <node id="node-12" name="BlueColumn">
+                <matrix>1 0 0 4.27 0 -1.19209e-07 -1 0.194999 0 1 -1.19209e-07 0.975999 0 0 0 1</matrix>
+            </node>
+            <node id="node-13" name="GreenColumn">
+                <matrix>0.766044 0 -0.642788 3.81999 0.642788 -2.38419e-07 0.766045 -0.829999 -5.96046e-08 -1 -2.38419e-07 0.950001 0 0 0 1</matrix>
+            </node>
+            <node id="node-14" name="MagentaColumn">
+                <matrix>-1.19209e-07 0 1 3.975 0 1 0 -1.175 -1 0 -1.19209e-07 0.9574 0 0 0 1</matrix>
+            </node>
+            <node id="node-15" name="RedColumn">
+                <matrix>-4.76837e-07 -0.707107 0.707107 3.84499 -2.08616e-07 0.707107 0.707107 0.17 -1 2.08616e-07 -4.76837e-07 0.950001 0 0 0 1</matrix>
+            </node>
+            <node id="node-16" name="Nut1">
+                <matrix>1 0 0 4.05 0 1 0 0.0799997 0 0 1 0.92 0 0 0 1</matrix>
+            </node>
+            <node id="node-17" name="Nut2">
+                <matrix>1 0 0 3.925 0 1 0 -0.645001 0 0 1 0.92 0 0 0 1</matrix>
+            </node>
+            <node id="node-18" name="Wheel1">
+                <matrix>1 0 0 4.195 0 1 0 -0.969999 0 0 1 0.92 0 0 0 1</matrix>
+            </node>
+            <node id="node-19" name="Wheel2">
+                <matrix>1 0 0 3.795 0 1 0 -0.369999 0 0 1 0.92 0 0 0 1</matrix>
+            </node>
+            <node id="node-20" name="customizableTable">
+                <matrix>1 0 0 4 0 1 0 -0.5 0 0 1 0.85 0 0 0 1</matrix>
+            </node>
+            <node id="node-21" name="Base">
+                <matrix>0 1 0.000501961 4.15 0 -0.00050199 1 -0.449986 1 0 0 1.113 0 0 0 1</matrix>
+            </node>
+        </visual_scene>
+    </library_visual_scenes>
+    <scene>
+        <instance_visual_scene url="#0"/>
+    </scene>
+</COLLADA>
