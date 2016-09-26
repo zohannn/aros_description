@@ -7,14 +7,14 @@
 <xacro:macro name="aros_base_v0" params="name">
     <link name="${name}_link">
 	 <visual>
-        <!-- <origin xyz="0 0 0" rpy="0 0 0" /> -->
+        <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
           <mesh filename="package://aros_description/meshes/base/body.dae" />
         </geometry>
       </visual>
 
       <collision>
-        <!-- <origin xyz="0 0 0" rpy="0 0 0" /> -->
+        <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
           <mesh filename="package://aros_description/meshes/base/link.dae" />
         </geometry>
