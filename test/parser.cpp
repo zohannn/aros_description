@@ -15,7 +15,7 @@ int main(int argc, char** argv){
 	char pwd[MAXPATHLEN];
     getcwd( pwd, MAXPATHLEN );
 	runExternalProcess("python `rospack find xacro`/xacro.py", " `rospack find aros_description`/urdf/robot/aros.urdf.xacro > `rospack find aros_description`/test/tmp.urdf" );
-	std::string urdf_file = std::string(pwd)+"/src/aros_description/test/tmp.urdf";
+	std::string urdf_file = std::string(pwd)+"/test/tmp.urdf";
 	
 	ros::init(argc, argv,"aros_urdf_parser");
 

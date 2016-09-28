@@ -41,61 +41,179 @@
   <property name="vision_pitch" value="0.0" />
   <property name="vision_yaw" value="0.0" />
 	
-  <!-- ********** Right arm link 0 ********** -->
-  <!-- Right arm link 0 Location: Add to the transform from torso to right arm 0-->
-  <property name="right_arm0_x" value="0.0" />
-  <property name="right_arm0_y" value="0.045" />
-  <property name="right_arm0_z" value="0.297" />
-  <property name="right_arm0_roll" value="-${M_PI/2}" />
-  <property name="right_arm0_pitch" value="-${M_PI}" />
-  <property name="right_arm0_yaw" value="0.0" />	
+  <!-- ********** arm link 0 ********** -->
+  <!-- arm link 0 Location: add to the transform from torso to right arm 0-->
+  <property name="arm0_x" value="0.0" />
+  <property name="arm0_y" value="0.045" />
+  <property name="arm0_z" value="0.297" />
+  <property name="arm0_roll" value="-${M_PI/2}" />
+  <property name="arm0_pitch" value="-${M_PI}" />
+  <property name="arm0_yaw" value="0.0" />	
+  	
+  <!-- ********** arm link 1 ********** -->
+  <!-- arm link 1 Location: add to the transform from right arm 0 to right arm 1-->
+  <property name="arm1_x" value="0.0" />
+  <property name="arm1_y" value="0.0" />
+  <property name="arm1_z" value="0.2" />
+  <property name="arm1_roll" value="0.0" />
+  <property name="arm1_pitch" value="0.0" />
+  <property name="arm1_yaw" value="0.0" />		
+  <!-- arm joint 1 limits : add the joint limits of the right arm link 1-->	
+  <property name="arm1_lower" value="-${150.0*M_PI/180.0}" />
+  <property name="arm1_upper" value="${M_PI/2}" />
+		
+  <!-- ********** arm link 2 ********** -->
+  <!-- arm link 2 Location: add to the transform from right arm 1 to right arm 2-->
+  <property name="arm2_x" value="0.0" />
+  <property name="arm2_y" value="0.0" />
+  <property name="arm2_z" value="0.14" />
+  <property name="arm2_roll" value="${M_PI/2}" />
+  <property name="arm2_pitch" value="${M_PI/2}" />
+  <property name="arm2_yaw" value="0.0" />		
+  <!-- arm joint 2 limits : add the joint limits of the right arm link 2-->		
+  <property name="arm2_lower" value="-${95*M_PI/180.0}" />
+  <property name="arm2_upper" value="${M_PI/4}" />
 	
-  <!-- ********** Right arm link 1 ********** -->
-  <!-- Right arm link 1 Location: Add to the transform from torso to right arm 1-->
-  <property name="right_arm1_x" value="0.0" />
-  <property name="right_arm1_y" value="0.0" />
-  <property name="right_arm1_z" value="0.2" />
-  <property name="right_arm1_roll" value="0.0" />
-  <property name="right_arm1_pitch" value="0.0" />
-  <property name="right_arm1_yaw" value="0.0" />		
-  <!-- Right arm joint 1 limits-->	
-  <property name="right_arm1_lower" value="-${153.0*M_PI/180.0}" />
-  <property name="right_arm1_upper" value="${M_PI/2}" />
-	
-	  <!-- ********** Right arm link 1 ********** -->
-  <!-- Right arm link 1 Location: Add to the transform from torso to right arm 1-->
-  <property name="right_arm1_x" value="0.0" />
-  <property name="right_arm1_y" value="0.0" />
-  <property name="right_arm1_z" value="0.2" />
-  <property name="right_arm1_roll" value="0.0" />
-  <property name="right_arm1_pitch" value="0.0" />
-  <property name="right_arm1_yaw" value="0.0" />		
-  <!-- Right arm joint 1 limits-->	
-  <property name="right_arm1_lower" value="-${153.0*M_PI/180.0}" />
-  <property name="right_arm1_upper" value="${M_PI/2}" />
-	
-  <!-- ********** Right arm link 2 ********** -->
-  <!-- Right arm link 2 Location: Add to the transform from torso to right arm 2-->
-  <property name="right_arm2_x" value="0.0" />
-  <property name="right_arm2_y" value="0.0" />
-  <property name="right_arm2_z" value="0.14" />
-  <property name="right_arm2_roll" value="${M_PI/2}" />
-  <property name="right_arm2_pitch" value="${M_PI/2}" />
-  <property name="right_arm2_yaw" value="0.0" />		
-  <!-- Right arm joint 2 limits-->	
-  <property name="right_arm2_lower" value="-${95*M_PI/180.0}" />
-  <property name="right_arm2_upper" value="${M_PI/4}" />
-	
-  <!-- ********** Right arm link 3 ********** -->
-  <!-- Right arm link 3 Location: Add to the transform from torso to right arm 3-->
-  <property name="right_arm3_x" value="-0.195" />
-  <property name="right_arm3_y" value="0.0" />
-  <property name="right_arm3_z" value="0.0" />
-  <property name="right_arm3_roll" value="-${M_PI/2}" />
-  <property name="right_arm3_pitch" value="0.0" />
-  <property name="right_arm3_yaw" value="${M_PI/2}" />		
-  <!-- Right arm joint 3 limits-->	
-  <property name="right_arm3_lower" value="-${M_PI/2}" />
-  <property name="right_arm3_upper" value="${140*M_PI/180.0}" />
+  <!-- ********** arm link 3 ********** -->
+  <!-- arm link 3 Location: add to the transform from right arm 2 to right arm 3-->
+  <property name="arm3_x" value="-0.195" />
+  <property name="arm3_y" value="0.0" />
+  <property name="arm3_z" value="0.0" />
+  <property name="arm3_roll" value="-${M_PI/2}" />
+  <property name="arm3_pitch" value="0.0" />
+  <property name="arm3_yaw" value="${M_PI/2}" />		
+  <!-- arm joint 3 limits : add the joint limits of the right arm link 3-->		
+  <property name="arm3_lower" value="-${M_PI/2}" />
+  <property name="arm3_upper" value="${140*M_PI/180.0}" />
   
+  <!-- ********** arm link 4 ********** -->
+  <!-- arm link 4 Location: add to the transform from right arm 3 to right arm 4 -->
+  <property name="arm4_x" value="0.0" />
+  <property name="arm4_y" value="0.0" />
+  <property name="arm4_z" value="0.2" />
+  <property name="arm4_roll" value="${M_PI/2}" />
+  <property name="arm4_pitch" value="${M_PI/2}" />
+  <property name="arm4_yaw" value="0.0" />		
+  <!-- arm joint 4 limits : add the joint limits of the right arm link 4 -->		
+  <property name="arm4_lower" value="-${165*M_PI/180.0}" />
+  <property name="arm4_upper" value="${15*M_PI/180.0}" />
+  
+  <!-- ********** arm link 5 ********** -->
+  <!-- arm link 5 Location: add to the transform from right arm 4 to right arm 5-->
+  <property name="arm5_x" value="-0.208" />
+  <property name="arm5_y" value="0.0" />
+  <property name="arm5_z" value="0.0" />
+  <property name="arm5_roll" value="-${M_PI/2}" />
+  <property name="arm5_pitch" value="0.0" />
+  <property name="arm5_yaw" value="${M_PI/2}" />		
+  <!-- arm joint 5 limits : add the joint limits of the right arm link 5 -->
+  <property name="arm5_lower" value="-${165*M_PI/180.0}" />
+  <property name="arm5_upper" value="${165*M_PI/180.0}" />
+  
+  <!-- ********** arm link 6 ********** -->
+  <!-- arm link 6 Location: add to the transform from right arm 5 to right arm 6-->
+  <property name="arm6_x" value="0.0" />
+  <property name="arm6_y" value="0.0" />
+  <property name="arm6_z" value="0.161" />
+  <property name="arm6_roll" value="${M_PI/2}" />
+  <property name="arm6_pitch" value="${M_PI/2}" />
+  <property name="arm6_yaw" value="0.0" />		
+  <!-- arm joint 6 limits : add the joint limits of the right arm link 6 -->
+  <property name="arm6_lower" value="-${120*M_PI/180.0}" />
+  <property name="arm6_upper" value="${120*M_PI/180.0}" />
+  
+  <!-- ********** arm link 7 ********** -->
+  <!-- arm link 7 Location: add to the transform from right arm 6 to right arm 7-->
+  <property name="arm7_x" value="-0.053" />
+  <property name="arm7_y" value="0.0" />
+  <property name="arm7_z" value="0.0" />
+  <property name="arm7_roll" value="-${M_PI/2}" />
+  <property name="arm7_pitch" value="0.0" />
+  <property name="arm7_yaw" value="${M_PI/2}" />		
+  <!-- arm joint 7 limits : add the joint limits of the right arm link 7 -->
+  <property name="arm7_lower" value="-${M_PI/2}" />
+  <property name="arm7_upper" value="${165*M_PI/180.0}" />
+  
+  <!-- ********** hand link fts ********** -->
+  <!-- hand link fts Location: add to the transform from right arm 7 to right hand fts -->
+  <property name="hand_fts_x" value="0.0" />
+  <property name="hand_fts_y" value="0.0" />
+  <property name="hand_fts_z" value="0.065" />
+  <property name="hand_fts_roll" value="-${M_PI/2}" />
+  <property name="hand_fts_pitch" value="-${M_PI/2}" />
+  <property name="hand_fts_yaw" value="0.0" />	
+  
+  <!-- ********** hand link adapter ********** -->
+  <!-- hand link adapter Location: add to the transform from right hand fts to right hand adapter -->
+  <property name="hand_adapter_x" value="0.04" />
+  <property name="hand_adapter_y" value="0.0" />
+  <property name="hand_adapter_z" value="0.0" />
+  <property name="hand_adapter_roll" value="0.0" />
+  <property name="hand_adapter_pitch" value="0.0" />
+  <property name="hand_adapter_yaw" value="0.0" />	
+  
+  <!-- ********** hand link barrett ********** -->
+  <!-- hand link barrett Location: add to the transform from right hand adapter to right hand barrett -->
+  <property name="hand_barrett_x" value="0.06" />
+  <property name="hand_barrett_y" value="0.0" />
+  <property name="hand_barrett_z" value="0.0" />
+  <property name="hand_barrett_roll" value="0.0" />
+  <property name="hand_barrett_pitch" value="0.0" />
+  <property name="hand_barrett_yaw" value="0.0" />	
+  
+  <!-- ********** hand link sensor ********** -->
+  <!-- hand link sensor Location: add to the transform from right hand barrett to right hand sensor -->
+  <property name="hand_sensor_x" value="0.035" />
+  <property name="hand_sensor_y" value="0.0" />
+  <property name="hand_sensor_z" value="0.0" />
+  <property name="hand_sensor_roll" value="0.0" />
+  <property name="hand_sensor_pitch" value="0.0" />
+  <property name="hand_sensor_yaw" value="0.0" />	
+  
+  
+  <!-- ********** finger  base link ********** -->
+  <!-- finger base link Location: add to the transform from right hand barrett to right hand finger base -->
+  <property name="finger_base_x" value="0.0" />
+  <property name="finger_base_y" value="-0.025" />
+  <property name="finger_base_z" value="0.0" />
+  <property name="finger_base_roll" value="0.0" />
+  <property name="finger_base_pitch" value="${M_PI/2}" />
+  <property name="finger_base_yaw" value="0.0" />
+    <!-- finger base limits : add the joint limits of the right finger base -->
+  <property name="finger_base_lower" value="0.0" />
+  <property name="finger_base_upper" value="${M_PI}" />
+  
+  <!-- ********** finger 1 link ********** -->
+  <!-- finger 1 link Location: add to the transform from right hand finger 1 base to right hand finger 1 -->
+  <property name="finger_1_x" value="-0.05" />
+  <property name="finger_1_y" value="0.0" />
+  <property name="finger_1_z" value="0.036" />
+  <property name="finger_1_roll" value="0.0" />
+  <property name="finger_1_pitch" value="${M_PI/2}" />
+  <property name="finger_1_yaw" value="${M_PI/2}" />
+    <!-- finger 1 limits : add the joint limits of the right finger 1 -->
+  <property name="finger_1_lower" value="0.0" />
+  <property name="finger_1_upper" value="${140*M_PI/180.0}" />
+  
+  <!-- ********** finger 2 link ********** -->
+  <!-- finger 2 link Location: add to the transform from right hand finger 1 to right hand finger 2 --> 
+  <property name="finger_2_x" value="-0.005" />
+  <property name="finger_2_y" value="0.07" />
+  <property name="finger_2_z" value="0.0" />
+  <property name="finger_2_roll" value="0.0" />
+  <property name="finger_2_pitch" value="0.0" />
+  <property name="finger_2_yaw" value="0.0" />
+    <!-- finger 2 limits : add the joint limits of the right finger 2 -->
+  <property name="finger_2_lower" value="0.0" />
+  <property name="finger_2_upper" value="${M_PI/4}" />
+  
+  <!-- ********** finger tip link ********** -->
+  <!-- finger tip link Location: add to the transform from right hand finger 2 to right hand finger tip --> 
+  <property name="finger_tip_x" value="-0.028" />
+  <property name="finger_tip_y" value="0.022" />
+  <property name="finger_tip_z" value="0.0" />
+  <property name="finger_tip_roll" value="0.0" />
+  <property name="finger_tip_pitch" value="0.0" />
+  <property name="finger_tip_yaw" value="${113*M_PI/180.0}" />
+    
   </robot>

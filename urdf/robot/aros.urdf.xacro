@@ -9,6 +9,8 @@
 	<xacro:include filename="$(find aros_description)/urdf/base/base.urdf.xacro" />
 	<xacro:include filename="$(find aros_description)/urdf/fixed/fixed.urdf.xacro" />
 	<xacro:include filename="$(find aros_description)/urdf/arm/arm.urdf.xacro" />
+	<xacro:include filename="$(find aros_description)/urdf/hand/hand.urdf.xacro" />
+	<xacro:include filename="$(find aros_description)/urdf/hand/fingers.urdf.xacro" />
 	
 	<xacro:aros_base_v0 name="base"/>
 	
@@ -28,21 +30,106 @@
     <origin xyz="${vision_x} ${vision_y} ${vision_z}" rpy="${vision_roll} ${vision_pitch} ${vision_yaw}" />
    </xacro:aros_fixed_v0>
 	
-	<!-- Right arm-->
+	<!-- Right arm and hand -->
    <xacro:aros_arm_v0 prefix="right" name="arm0" parent="torso" link="0" revolute="false" lower="0" upper="0">
-    <origin xyz="${right_arm0_x} ${right_arm0_y} ${right_arm0_z}" rpy="${right_arm0_roll} ${right_arm0_pitch} ${right_arm0_yaw}" />
+    <origin xyz="${arm0_x} ${arm0_y} ${arm0_z}" rpy="${arm0_roll} ${arm0_pitch} ${arm0_yaw}" />
    </xacro:aros_arm_v0>
 	
-   <xacro:aros_arm_v0 prefix="right" name="arm1" parent="arm0" link="1" revolute="true" lower="${right_arm1_lower}" upper="${right_arm1_upper}">
-    <origin xyz="${right_arm1_x} ${right_arm1_y} ${right_arm1_z}" rpy="${right_arm1_roll} ${right_arm1_pitch} ${right_arm1_yaw}" />
+   <xacro:aros_arm_v0 prefix="right" name="arm1" parent="arm0" link="1" revolute="true" lower="${arm1_lower}" upper="${arm1_upper}">
+    <origin xyz="${arm1_x} ${arm1_y} ${arm1_z}" rpy="${arm1_roll} ${arm1_pitch} ${arm1_yaw}" />
    </xacro:aros_arm_v0>
 	
-   <xacro:aros_arm_v0 prefix="right" name="arm2" parent="arm1" link="2" revolute="true" lower="${right_arm2_lower}" upper="${right_arm2_upper}">
-    <origin xyz="${right_arm2_x} ${right_arm2_y} ${right_arm2_z}" rpy="${right_arm2_roll} ${right_arm2_pitch} ${right_arm2_yaw}" />
+   <xacro:aros_arm_v0 prefix="right" name="arm2" parent="arm1" link="2" revolute="true" lower="${arm2_lower}" upper="${arm2_upper}">
+    <origin xyz="${arm2_x} ${arm2_y} ${arm2_z}" rpy="${arm2_roll} ${arm2_pitch} ${arm2_yaw}" />
    </xacro:aros_arm_v0>
 	
-   <xacro:aros_arm_v0 prefix="right" name="arm3" parent="arm2" link="3" revolute="true" lower="${right_arm3_lower}" upper="${right_arm3_upper}">
-    <origin xyz="${right_arm3_x} ${right_arm3_y} ${right_arm3_z}" rpy="${right_arm3_roll} ${right_arm3_pitch} ${right_arm3_yaw}" />
+   <xacro:aros_arm_v0 prefix="right" name="arm3" parent="arm2" link="3" revolute="true" lower="${arm3_lower}" upper="${arm3_upper}">
+    <origin xyz="${arm3_x} ${arm3_y} ${arm3_z}" rpy="${arm3_roll} ${arm3_pitch} ${arm3_yaw}" />
    </xacro:aros_arm_v0>
+	
+   <xacro:aros_arm_v0 prefix="right" name="arm4" parent="arm3" link="4" revolute="true" lower="${arm4_lower}" upper="${arm4_upper}">
+    <origin xyz="${arm4_x} ${arm4_y} ${arm4_z}" rpy="${arm4_roll} ${arm4_pitch} ${arm4_yaw}" />
+   </xacro:aros_arm_v0>
+	
+   <xacro:aros_arm_v0 prefix="right" name="arm5" parent="arm4" link="5" revolute="true" lower="${arm5_lower}" upper="${arm5_upper}">
+    <origin xyz="${arm5_x} ${arm5_y} ${arm5_z}" rpy="${arm5_roll} ${arm5_pitch} ${arm5_yaw}" />
+   </xacro:aros_arm_v0>
+	
+   <xacro:aros_arm_v0 prefix="right" name="arm6" parent="arm5" link="6" revolute="true" lower="${arm6_lower}" upper="${arm6_upper}">
+    <origin xyz="${arm6_x} ${arm6_y} ${arm6_z}" rpy="${arm6_roll} ${arm6_pitch} ${arm6_yaw}" />
+   </xacro:aros_arm_v0>
+	
+   <xacro:aros_arm_v0 prefix="right" name="arm7" parent="arm6" link="7" revolute="true" lower="${arm7_lower}" upper="${arm7_upper}">
+    <origin xyz="${arm7_x} ${arm7_y} ${arm7_z}" rpy="${arm7_roll} ${arm7_pitch} ${arm7_yaw}" />
+   </xacro:aros_arm_v0>
+	
+   <xacro:aros_hand_v0 prefix="right" name="hand_fts" parent="arm7" collision="true">
+    <origin xyz="${hand_fts_x} ${hand_fts_y} ${hand_fts_z}" rpy="${hand_fts_roll} ${hand_fts_pitch} ${hand_fts_yaw}" />
+   </xacro:aros_hand_v0>
+	
+   <xacro:aros_hand_v0 prefix="right" name="hand_adapter" parent="hand_fts" collision="false">
+    <origin xyz="${hand_adapter_x} ${hand_adapter_y} ${hand_adapter_z}" rpy="${hand_adapter_roll} ${hand_adapter_pitch} ${hand_adapter_yaw}" />
+   </xacro:aros_hand_v0>
+	
+   <xacro:aros_hand_v0 prefix="right" name="hand_barrett" parent="hand_adapter" collision="true">
+    <origin xyz="${hand_barrett_x} ${hand_barrett_y} ${hand_barrett_z}" rpy="${hand_barrett_roll} ${hand_barrett_pitch} ${hand_barrett_yaw}" />
+   </xacro:aros_hand_v0>
+	
+   <xacro:aros_hand_v0 prefix="right" name="hand_sensor" parent="hand_barrett" collision="true">
+    <origin xyz="${hand_sensor_x} ${hand_sensor_y} ${hand_sensor_z}" rpy="${hand_sensor_roll} ${hand_sensor_pitch} ${hand_sensor_yaw}" />
+   </xacro:aros_hand_v0>
+	
+   <xacro:aros_fingers_v0 prefix="right" parent="hand_barrett" />
+	
+	<!-- Left arm-->
+   <xacro:aros_arm_v0 prefix="left" name="arm0" parent="torso" link="0" revolute="false" lower="0" upper="0">
+    <origin xyz="${arm0_x} ${-arm0_y} ${arm0_z}" rpy="${-arm0_roll} ${arm0_pitch} ${arm0_yaw}" />
+   </xacro:aros_arm_v0>
+	
+   <xacro:aros_arm_v0 prefix="left" name="arm1" parent="arm0" link="1" revolute="true" lower="${-arm1_upper}" upper="${-arm1_lower}">
+    <origin xyz="${arm1_x} ${arm1_y} ${arm1_z}" rpy="${arm1_roll} ${arm1_pitch} ${arm1_yaw}" />
+   </xacro:aros_arm_v0>
+	
+   <xacro:aros_arm_v0 prefix="left" name="arm2" parent="arm1" link="2" revolute="true" lower="${arm2_lower}" upper="${arm2_upper}">
+    <origin xyz="${arm2_x} ${arm2_y} ${arm2_z}" rpy="${arm2_roll} ${arm2_pitch} ${arm2_yaw}" />
+   </xacro:aros_arm_v0>
+	
+   <xacro:aros_arm_v0 prefix="left" name="arm3" parent="arm2" link="3" revolute="true" lower="${-arm3_upper}" upper="${-arm3_lower}">
+    <origin xyz="${arm3_x} ${arm3_y} ${arm3_z}" rpy="${arm3_roll} ${arm3_pitch} ${arm3_yaw}" />
+   </xacro:aros_arm_v0>
+	
+   <xacro:aros_arm_v0 prefix="left" name="arm4" parent="arm3" link="4" revolute="true" lower="${arm4_lower}" upper="${arm4_upper}">
+    <origin xyz="${arm4_x} ${arm4_y} ${arm4_z}" rpy="${arm4_roll} ${arm4_pitch} ${arm4_yaw}" />
+   </xacro:aros_arm_v0>
+	
+   <xacro:aros_arm_v0 prefix="left" name="arm5" parent="arm4" link="5" revolute="true" lower="${-arm5_upper}" upper="${-arm5_lower}">
+    <origin xyz="${arm5_x} ${arm5_y} ${arm5_z}" rpy="${arm5_roll} ${arm5_pitch} ${arm5_yaw}" />
+   </xacro:aros_arm_v0>
+	
+   <xacro:aros_arm_v0 prefix="left" name="arm6" parent="arm5" link="6" revolute="true" lower="${arm6_lower}" upper="${arm6_upper}">
+    <origin xyz="${arm6_x} ${arm6_y} ${arm6_z}" rpy="${arm6_roll} ${arm6_pitch} ${arm6_yaw}" />
+   </xacro:aros_arm_v0>
+	
+   <xacro:aros_arm_v0 prefix="left" name="arm7" parent="arm6" link="7" revolute="true" lower="${arm7_lower}" upper="${arm7_upper}">
+    <origin xyz="${arm7_x} ${arm7_y} ${arm7_z}" rpy="${arm7_roll} ${arm7_pitch} ${arm7_yaw}" />
+   </xacro:aros_arm_v0>
+	
+   <xacro:aros_hand_v0 prefix="left" name="hand_fts" parent="arm7" collision="true">
+    <origin xyz="${hand_fts_x} ${hand_fts_y} ${hand_fts_z}" rpy="${hand_fts_roll} ${hand_fts_pitch} ${hand_fts_yaw}" />
+   </xacro:aros_hand_v0>
+	
+   <xacro:aros_hand_v0 prefix="left" name="hand_adapter" parent="hand_fts" collision="false">
+    <origin xyz="${hand_adapter_x} ${hand_adapter_y} ${hand_adapter_z}" rpy="${hand_adapter_roll} ${hand_adapter_pitch} ${hand_adapter_yaw}" />
+   </xacro:aros_hand_v0>
+	
+   <xacro:aros_hand_v0 prefix="left" name="hand_barrett" parent="hand_adapter" collision="true">
+    <origin xyz="${hand_barrett_x} ${hand_barrett_y} ${hand_barrett_z}" rpy="${hand_barrett_roll} ${hand_barrett_pitch} ${hand_barrett_yaw}" />
+   </xacro:aros_hand_v0>
+	
+   <xacro:aros_hand_v0 prefix="left" name="hand_sensor" parent="hand_barrett" collision="true">
+    <origin xyz="${hand_sensor_x} ${hand_sensor_y} ${hand_sensor_z}" rpy="${hand_sensor_roll} ${hand_sensor_pitch} ${hand_sensor_yaw}" />
+   </xacro:aros_hand_v0>
+	
+   <xacro:aros_fingers_v0 prefix="left" parent="hand_barrett" />
 
 </robot>
