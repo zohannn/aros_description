@@ -163,7 +163,7 @@
   
   <!-- ********** hand link sensor ********** -->
   <!-- hand link sensor Location: add to the transform from right hand barrett to right hand sensor -->
-  <property name="hand_sensor_x" value="0.038" />
+  <property name="hand_sensor_x" value="0.028" />
   <property name="hand_sensor_y" value="0.0" />
   <property name="hand_sensor_z" value="0.0" />
   <property name="hand_sensor_roll" value="${M_PI/2}" />
