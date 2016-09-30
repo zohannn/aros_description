@@ -94,7 +94,7 @@
                 <matrix>1 0 0 4.7 0 1 0 -0.475 0 0 1 0.813999 0 0 0 1</matrix>
             </node>
             <node id="node-11" name="Right_BarrettHand_handSensorShape">
-                <matrix>9.25064e-05 8.73208e-05 1 -9.53674e-07 1 -0.000366211 -9.2566e-05 5.36442e-07 0.000366002 1 -8.74996e-05 -1.43051e-06 0 0 0 1</matrix>
+                <matrix>-1 1.26441e-07 1.78814e-07 -7.04335e-08 1.26441e-07 1 -1.26441e-07 -1.19328e-07 -1.78814e-07 -1.26441e-07 -1 -0.00562621 0 0 0 1</matrix>
                 <instance_geometry url="#192">
                     <bind_material>
                         <technique_common>
