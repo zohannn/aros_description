@@ -61,7 +61,33 @@
 	
    <xacro:aros_arm_v0 prefix="right" name="arm7" parent="arm6" link="7" revolute="true" lower="${arm7_lower}" upper="${arm7_upper}">
     <origin xyz="${arm7_x} ${arm7_y} ${arm7_z}" rpy="${arm7_roll} ${arm7_pitch} ${arm7_yaw}" />
-   </xacro:aros_arm_v0>
+   </xacro:aros_arm_v0>	
+
+	<!--
+   <xacro:aros_fixed_v0 name="right_arm7" parent="right_arm6">
+   <origin xyz="${arm7_x} ${arm7_y} ${arm7_z}" rpy="${arm7_roll} ${arm7_pitch} ${arm7_yaw}" />
+   </xacro:aros_fixed_v0>
+-->
+	<!--
+	<link name="right_arm7_link">
+	 <visual>
+        <geometry>
+              <mesh filename="package://aros_description/meshes/arm/link7/body.dae" />
+        </geometry>
+      </visual>
+	<collision>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/arm/link7/link.dae" />
+      </geometry>
+    </collision>
+    </link>	
+	
+  <joint name="right_arm6_link_to_right_arm7_link" type="fixed">
+    <parent link="right_arm6_link"/>
+    <child link="right_arm7_link"/>
+    <origin xyz="${arm7_x} ${arm7_y} ${arm7_z}" rpy="${arm7_roll} ${arm7_pitch} ${arm7_yaw}" />
+  </joint>
+	-->
 	
    <xacro:aros_hand_v0 prefix="right" name="hand_fts" parent="arm7" collision="true">
     <origin xyz="${hand_fts_x} ${hand_fts_y} ${hand_fts_z}" rpy="${hand_fts_roll} ${hand_fts_pitch} ${hand_fts_yaw}" />
@@ -74,12 +100,61 @@
    <xacro:aros_hand_v0 prefix="right" name="hand_barrett" parent="hand_adapter" collision="true">
     <origin xyz="${hand_barrett_x} ${hand_barrett_y} ${hand_barrett_z}" rpy="${hand_barrett_roll} ${hand_barrett_pitch} ${hand_barrett_yaw}" />
    </xacro:aros_hand_v0>
+
+	<!--
+	<xacro:aros_arm_v0 prefix="right" name="hand_barrett" parent="hand_adapter" link="7" revolute="true" lower="${arm7_lower}" upper="${arm7_upper}">
+    <origin xyz="${hand_barrett_x} ${hand_barrett_y} ${hand_barrett_z}" rpy="${hand_barrett_roll} ${hand_barrett_pitch} ${hand_barrett_yaw}" />
+   </xacro:aros_arm_v0>	
+-->
 	
+	<!--
+	 <link name="right_hand_barrett_link">
+	 <visual>
+        <geometry>
+              <mesh filename="package://aros_description/meshes/hand/hand_barrett/body.dae" />
+        </geometry>
+      </visual>		
+	<collision>
+      <geometry>
+        <mesh filename="package://aros_description/meshes/hand/hand_barrett/link.dae" />
+      </geometry>
+    </collision>
+    </link>	
+
+	 <joint name="right_joint7" type="revolute">
+		<axis xyz="0 0 1"/>
+		<limit effort="${EFFORT}" lower="${arm7_lower}" upper="${arm7_upper}" velocity="${VELOCITY}"/>
+		<parent link="right_hand_adapter_link"/>
+		<child link="right_hand_barrett_link"/>
+		<origin xyz="${hand_barrett_x} ${hand_barrett_y} ${hand_barrett_z}" rpy="${hand_barrett_roll} ${hand_barrett_pitch} ${hand_barrett_yaw}" />
+	  </joint>
+-->
+
    <xacro:aros_hand_v0 prefix="right" name="hand_sensor" parent="hand_barrett" collision="true">
     <origin xyz="${hand_sensor_x} ${hand_sensor_y} ${hand_sensor_z}" rpy="${hand_sensor_roll} ${hand_sensor_pitch} ${hand_sensor_yaw}" />
    </xacro:aros_hand_v0>
+
+	<!--
+  <link name="right_hand_sensor_link">
+	 <visual>
+        <geometry>
+              <mesh filename="package://aros_description/meshes/hand/hand_sensor/body.dae" />
+        </geometry>
+      </visual>		
+		<collision>
+		  <geometry>
+			<mesh filename="package://aros_description/meshes/hand/hand_sensor/link.dae" />
+		  </geometry>
+		</collision>
+    </link>		
+  <joint name="right_endpoint" type="fixed">
+    <parent link="right_hand_barrett_link"/>
+    <child link="right_hand_sensor_link"/>
+    <origin xyz="${hand_sensor_x} ${hand_sensor_y} ${hand_sensor_z}" rpy="${hand_sensor_roll} ${hand_sensor_pitch} ${hand_sensor_yaw}" />
+  </joint>
+-->
 	
-   <xacro:aros_fingers_v0 prefix="right" parent="hand_barrett" />
+   <xacro:aros_fingers_v0 prefix="right" parent="hand_sensor" />
 	
 	<!-- Left arm-->
    <xacro:aros_arm_v0 prefix="left" name="arm0" parent="torso" link="0" revolute="false" lower="0" upper="0">
@@ -129,7 +204,27 @@
    <xacro:aros_hand_v0 prefix="left" name="hand_sensor" parent="hand_barrett" collision="true">
     <origin xyz="${hand_sensor_x} ${hand_sensor_y} ${hand_sensor_z}" rpy="${hand_sensor_roll} ${hand_sensor_pitch} ${hand_sensor_yaw}" />
    </xacro:aros_hand_v0>
+	<!-- 
+	  <link name="left_hand_sensor_link">
+	 <visual>
+        <geometry>
+              <mesh filename="package://aros_description/meshes/hand/hand_sensor/body.dae" />
+        </geometry>
+      </visual>		
+		<collision>
+		  <geometry>
+			<mesh filename="package://aros_description/meshes/hand/hand_sensor/link.dae" />
+		  </geometry>
+		</collision>
+    </link>		
+  <joint name="left_endpoint" type="fixed">
+    <parent link="left_hand_barrett_link"/>
+    <child link="left_hand_sensor_link"/>
+    <origin xyz="${hand_sensor_x} ${hand_sensor_y} ${hand_sensor_z}" rpy="${hand_sensor_roll} ${hand_sensor_pitch} ${hand_sensor_yaw}" />
+  </joint>
+
+-->
 	
-   <xacro:aros_fingers_v0 prefix="left" parent="hand_barrett" />
+   <xacro:aros_fingers_v0 prefix="left" parent="hand_sensor" />
 
 </robot>

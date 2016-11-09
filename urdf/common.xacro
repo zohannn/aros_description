@@ -154,31 +154,33 @@
   
   <!-- ********** hand link barrett ********** -->
   <!-- hand link barrett Location: add to the transform from right hand adapter to right hand barrett -->
-  <property name="hand_barrett_x" value="0.06" />
+  <property name="hand_barrett_x" value="0.088" />
   <property name="hand_barrett_y" value="0.0" />
   <property name="hand_barrett_z" value="0.0" />
-  <property name="hand_barrett_roll" value="0.0" />
+  <property name="hand_barrett_roll" value="${M_PI/2}" />
+  <!-- <property name="hand_barrett_roll" value="0.0" /> -->
   <property name="hand_barrett_pitch" value="0.0" />
-  <property name="hand_barrett_yaw" value="0.0" />	
+  <property name="hand_barrett_yaw" value="${M_PI/2}" />	
+  <!--<property name="hand_barrett_yaw" value="0.0" /> -->
   
   <!-- ********** hand link sensor ********** -->
   <!-- hand link sensor Location: add to the transform from right hand barrett to right hand sensor -->
-  <property name="hand_sensor_x" value="0.028" />
+  <property name="hand_sensor_x" value="0.0" />
   <property name="hand_sensor_y" value="0.0" />
   <property name="hand_sensor_z" value="0.0" />
-  <property name="hand_sensor_roll" value="${M_PI/2}" />
+  <property name="hand_sensor_roll" value="0.0" />
   <property name="hand_sensor_pitch" value="0.0" />
-  <property name="hand_sensor_yaw" value="${M_PI/2}" />	
+  <property name="hand_sensor_yaw" value="0.0" />	
   
   
   <!-- ********** finger  base link ********** -->
   <!-- finger base link Location: add to the transform from right hand barrett to right hand finger base -->
-  <property name="finger_base_x" value="0.0" />
-  <property name="finger_base_y" value="-0.025" />
-  <property name="finger_base_z" value="0.0" />
+  <property name="finger_base_x" value="-0.025" />
+  <property name="finger_base_y" value="0.0" />
+  <property name="finger_base_z" value="-0.028" />
   <property name="finger_base_roll" value="0.0" />
-  <property name="finger_base_pitch" value="${M_PI/2}" />
-  <property name="finger_base_yaw" value="0.0" />
+  <property name="finger_base_pitch" value="0.0" />
+  <property name="finger_base_yaw" value="${-M_PI/2}" />
     <!-- finger base limits : add the joint limits of the right finger base -->
   <property name="finger_base_lower" value="0.0" />
   <property name="finger_base_upper" value="${M_PI}" />

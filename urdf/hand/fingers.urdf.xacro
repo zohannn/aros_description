@@ -74,7 +74,8 @@
     <child link="${prefix}_finger1_2_link"/>
     <origin xyz="${finger_2_x} ${finger_2_y} ${finger_2_z}" rpy="${finger_2_roll} ${finger_2_pitch} ${finger_2_yaw}"/>
   </joint>	
-	
+
+<!--	
 	<link name="${prefix}_finger1_tip_link">
 	 <visual>
         <geometry>
@@ -88,6 +89,8 @@
     <child link="${prefix}_finger1_tip_link"/>
     <origin xyz="${finger_tip_x} ${finger_tip_y} ${finger_tip_z}" rpy="${finger_tip_roll} ${finger_tip_pitch} ${finger_tip_yaw}"/>
   </joint>
+-->
+
 	
 <!-- finger 2 -->
     <link name="${prefix}_finger2_base_link">
@@ -109,7 +112,7 @@
     <limit effort="${EFFORT}" lower="${-finger_base_upper}" upper="${-finger_base_lower}" velocity="${VELOCITY}"/>
     <parent link="${prefix}_${parent}_link"/>
     <child link="${prefix}_finger2_base_link"/>
-    <origin xyz="${finger_base_x} ${-finger_base_y} ${finger_base_z}" rpy="${finger_base_roll} ${finger_base_pitch} ${finger_base_yaw}"/>
+    <origin xyz="${-finger_base_x} ${finger_base_y} ${finger_base_z}" rpy="${finger_base_roll} ${finger_base_pitch} ${finger_base_yaw}"/>
   </joint>
 	
 	<link name="${prefix}_finger2_1_link">
@@ -156,6 +159,7 @@
     <origin xyz="${finger_2_x} ${finger_2_y} ${finger_2_z}" rpy="${finger_2_roll} ${finger_2_pitch} ${finger_2_yaw}"/>
   </joint>	
 	
+<!--
 	<link name="${prefix}_finger2_tip_link">
 	 <visual>
         <geometry>
@@ -169,7 +173,7 @@
     <child link="${prefix}_finger2_tip_link"/>
     <origin xyz="${finger_tip_x} ${finger_tip_y} ${finger_tip_z}" rpy="${finger_tip_roll} ${finger_tip_pitch} ${finger_tip_yaw}"/>
   </joint>
-
+-->
 <!-- finger 3 -->
 	
 	<link name="${prefix}_finger3_1_link">
@@ -191,7 +195,7 @@
     <limit effort="${EFFORT}" lower="${finger_1_lower}" upper="${finger_1_upper}" velocity="${VELOCITY}"/>
     <parent link="${prefix}_${parent}_link"/>
     <child link="${prefix}_finger3_1_link"/>
-    <origin xyz="${finger_1_z} ${finger_1_y} ${finger_1_x}" rpy="${finger_1_roll+M_PI/2} ${finger_1_pitch+M_PI/2} ${finger_1_yaw-M_PI/2}"/>
+    <origin xyz="${finger_1_y} ${finger_1_x} ${finger_1_z-0.028}" rpy="${finger_1_roll-M_PI/2} ${finger_1_pitch} ${finger_1_yaw}"/>
   </joint>
 	
 	<link name="${prefix}_finger3_2_link">
@@ -215,7 +219,8 @@
     <child link="${prefix}_finger3_2_link"/>
     <origin xyz="${finger_2_x} ${finger_2_y} ${finger_2_z}" rpy="${finger_2_roll} ${finger_2_pitch} ${finger_2_yaw}"/>
   </joint>	
-	
+
+<!--	
 	<link name="${prefix}_finger3_tip_link">
 	 <visual>
         <geometry>
@@ -229,7 +234,7 @@
     <child link="${prefix}_finger3_tip_link"/>
     <origin xyz="${finger_tip_x} ${finger_tip_y} ${finger_tip_z}" rpy="${finger_tip_roll} ${finger_tip_pitch} ${finger_tip_yaw}"/>
   </joint>
-
+-->
 	
 </xacro:macro>
 	

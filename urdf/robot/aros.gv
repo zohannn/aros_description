@@ -1,0 +1,137 @@
+digraph G {
+node [shape=box];
+"base_link" [label="base_link"];
+"torso_link" [label="torso_link"];
+"left_arm0_link" [label="left_arm0_link"];
+"left_arm1_link" [label="left_arm1_link"];
+"left_arm2_link" [label="left_arm2_link"];
+"left_arm3_link" [label="left_arm3_link"];
+"left_arm4_link" [label="left_arm4_link"];
+"left_arm5_link" [label="left_arm5_link"];
+"left_arm6_link" [label="left_arm6_link"];
+"left_arm7_link" [label="left_arm7_link"];
+"left_hand_fts_link" [label="left_hand_fts_link"];
+"left_hand_adapter_link" [label="left_hand_adapter_link"];
+"left_hand_barrett_link" [label="left_hand_barrett_link"];
+"left_hand_sensor_link" [label="left_hand_sensor_link"];
+"left_finger1_base_link" [label="left_finger1_base_link"];
+"left_finger1_1_link" [label="left_finger1_1_link"];
+"left_finger1_2_link" [label="left_finger1_2_link"];
+"left_finger2_base_link" [label="left_finger2_base_link"];
+"left_finger2_1_link" [label="left_finger2_1_link"];
+"left_finger2_2_link" [label="left_finger2_2_link"];
+"left_finger3_1_link" [label="left_finger3_1_link"];
+"left_finger3_2_link" [label="left_finger3_2_link"];
+"pan_tilt_link" [label="pan_tilt_link"];
+"neck_link" [label="neck_link"];
+"vision_link" [label="vision_link"];
+"right_arm0_link" [label="right_arm0_link"];
+"right_arm1_link" [label="right_arm1_link"];
+"right_arm2_link" [label="right_arm2_link"];
+"right_arm3_link" [label="right_arm3_link"];
+"right_arm4_link" [label="right_arm4_link"];
+"right_arm5_link" [label="right_arm5_link"];
+"right_arm6_link" [label="right_arm6_link"];
+"right_arm7_link" [label="right_arm7_link"];
+"right_hand_fts_link" [label="right_hand_fts_link"];
+"right_hand_adapter_link" [label="right_hand_adapter_link"];
+"right_hand_barrett_link" [label="right_hand_barrett_link"];
+"right_hand_sensor_link" [label="right_hand_sensor_link"];
+"right_finger1_base_link" [label="right_finger1_base_link"];
+"right_finger1_1_link" [label="right_finger1_1_link"];
+"right_finger1_2_link" [label="right_finger1_2_link"];
+"right_finger2_base_link" [label="right_finger2_base_link"];
+"right_finger2_1_link" [label="right_finger2_1_link"];
+"right_finger2_2_link" [label="right_finger2_2_link"];
+"right_finger3_1_link" [label="right_finger3_1_link"];
+"right_finger3_2_link" [label="right_finger3_2_link"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"base_link" -> "base_to_torso" [label="xyz: 0 0 1.203 \nrpy: 0 -0 0"]
+"base_to_torso" -> "torso_link"
+"torso_link" -> "torso_to_left_arm0" [label="xyz: 0 -0.045 0.297 \nrpy: -1.5708 2.06823e-13 3.14159"]
+"torso_to_left_arm0" -> "left_arm0_link"
+"left_arm0_link" -> "left_joint1" [label="xyz: 0 0 0.2 \nrpy: 0 -0 0"]
+"left_joint1" -> "left_arm1_link"
+"left_arm1_link" -> "left_joint2" [label="xyz: 0 0 0.14 \nrpy: 1.57081 1.5708 1.13367e-05"]
+"left_joint2" -> "left_arm2_link"
+"left_arm2_link" -> "left_joint3" [label="xyz: -0.195 0 0 \nrpy: -1.5708 5.55112e-17 1.5708"]
+"left_joint3" -> "left_arm3_link"
+"left_arm3_link" -> "left_joint4" [label="xyz: 0 0 0.2 \nrpy: 1.57081 1.5708 1.13367e-05"]
+"left_joint4" -> "left_arm4_link"
+"left_arm4_link" -> "left_joint5" [label="xyz: -0.208 0 0 \nrpy: -1.5708 5.55112e-17 1.5708"]
+"left_joint5" -> "left_arm5_link"
+"left_arm5_link" -> "left_joint6" [label="xyz: 0 0 0.161 \nrpy: 1.57081 1.5708 1.13367e-05"]
+"left_joint6" -> "left_arm6_link"
+"left_arm6_link" -> "left_joint7" [label="xyz: -0.053 0 0 \nrpy: -1.5708 5.55112e-17 1.5708"]
+"left_joint7" -> "left_arm7_link"
+"left_arm7_link" -> "left_arm7_to_left_hand_fts" [label="xyz: 0 0 0.065 \nrpy: -1.57081 -1.5708 1.13367e-05"]
+"left_arm7_to_left_hand_fts" -> "left_hand_fts_link"
+"left_hand_fts_link" -> "left_hand_fts_to_left_hand_adapter" [label="xyz: 0.04 0 0 \nrpy: 0 -0 0"]
+"left_hand_fts_to_left_hand_adapter" -> "left_hand_adapter_link"
+"left_hand_adapter_link" -> "left_hand_adapter_to_left_hand_barrett" [label="xyz: 0.088 0 0 \nrpy: 1.5708 -5.55112e-17 1.5708"]
+"left_hand_adapter_to_left_hand_barrett" -> "left_hand_barrett_link"
+"left_hand_barrett_link" -> "left_hand_barrett_to_left_hand_sensor" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"left_hand_barrett_to_left_hand_sensor" -> "left_hand_sensor_link"
+"left_hand_sensor_link" -> "left_finger1_joint_base" [label="xyz: -0.025 0 -0.028 \nrpy: 0 0 -1.5708"]
+"left_finger1_joint_base" -> "left_finger1_base_link"
+"left_finger1_base_link" -> "left_finger1_joint1" [label="xyz: -0.05 0 0.036 \nrpy: 1.13367e-05 1.5708 1.57081"]
+"left_finger1_joint1" -> "left_finger1_1_link"
+"left_finger1_1_link" -> "left_finger1_joint2" [label="xyz: -0.005 0.07 0 \nrpy: 0 -0 0"]
+"left_finger1_joint2" -> "left_finger1_2_link"
+"left_hand_sensor_link" -> "left_finger2_joint_base" [label="xyz: 0.025 0 -0.028 \nrpy: 0 0 -1.5708"]
+"left_finger2_joint_base" -> "left_finger2_base_link"
+"left_finger2_base_link" -> "left_finger2_joint1" [label="xyz: -0.05 0 0.036 \nrpy: 1.13367e-05 1.5708 1.57081"]
+"left_finger2_joint1" -> "left_finger2_1_link"
+"left_finger2_1_link" -> "left_finger2_joint2" [label="xyz: -0.005 0.07 0 \nrpy: 0 -0 0"]
+"left_finger2_joint2" -> "left_finger2_2_link"
+"left_hand_sensor_link" -> "left_finger3_joint1" [label="xyz: 0 -0.05 0.008 \nrpy: -1.5708 1.5708 1.5708"]
+"left_finger3_joint1" -> "left_finger3_1_link"
+"left_finger3_1_link" -> "left_finger3_joint2" [label="xyz: -0.005 0.07 0 \nrpy: 0 -0 0"]
+"left_finger3_joint2" -> "left_finger3_2_link"
+"torso_link" -> "torso_to_pan_tilt" [label="xyz: 0 0.005 0.447 \nrpy: 0 -0 0"]
+"torso_to_pan_tilt" -> "pan_tilt_link"
+"pan_tilt_link" -> "pan_tilt_to_neck" [label="xyz: 0 0 0.044 \nrpy: 0 -0 0"]
+"pan_tilt_to_neck" -> "neck_link"
+"neck_link" -> "neck_to_vision" [label="xyz: 0 0 0.0503 \nrpy: 0 -0 0"]
+"neck_to_vision" -> "vision_link"
+"torso_link" -> "torso_to_right_arm0" [label="xyz: 0 0.045 0.297 \nrpy: 1.5708 2.06823e-13 -3.14159"]
+"torso_to_right_arm0" -> "right_arm0_link"
+"right_arm0_link" -> "right_joint1" [label="xyz: 0 0 0.2 \nrpy: 0 -0 0"]
+"right_joint1" -> "right_arm1_link"
+"right_arm1_link" -> "right_joint2" [label="xyz: 0 0 0.14 \nrpy: 1.57081 1.5708 1.13367e-05"]
+"right_joint2" -> "right_arm2_link"
+"right_arm2_link" -> "right_joint3" [label="xyz: -0.195 0 0 \nrpy: -1.5708 5.55112e-17 1.5708"]
+"right_joint3" -> "right_arm3_link"
+"right_arm3_link" -> "right_joint4" [label="xyz: 0 0 0.2 \nrpy: 1.57081 1.5708 1.13367e-05"]
+"right_joint4" -> "right_arm4_link"
+"right_arm4_link" -> "right_joint5" [label="xyz: -0.208 0 0 \nrpy: -1.5708 5.55112e-17 1.5708"]
+"right_joint5" -> "right_arm5_link"
+"right_arm5_link" -> "right_joint6" [label="xyz: 0 0 0.161 \nrpy: 1.57081 1.5708 1.13367e-05"]
+"right_joint6" -> "right_arm6_link"
+"right_arm6_link" -> "right_joint7" [label="xyz: -0.053 0 0 \nrpy: -1.5708 5.55112e-17 1.5708"]
+"right_joint7" -> "right_arm7_link"
+"right_arm7_link" -> "right_arm7_to_right_hand_fts" [label="xyz: 0 0 0.065 \nrpy: -1.57081 -1.5708 1.13367e-05"]
+"right_arm7_to_right_hand_fts" -> "right_hand_fts_link"
+"right_hand_fts_link" -> "right_hand_fts_to_right_hand_adapter" [label="xyz: 0.04 0 0 \nrpy: 0 -0 0"]
+"right_hand_fts_to_right_hand_adapter" -> "right_hand_adapter_link"
+"right_hand_adapter_link" -> "right_hand_adapter_to_right_hand_barrett" [label="xyz: 0.088 0 0 \nrpy: 1.5708 -5.55112e-17 1.5708"]
+"right_hand_adapter_to_right_hand_barrett" -> "right_hand_barrett_link"
+"right_hand_barrett_link" -> "right_hand_barrett_to_right_hand_sensor" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"right_hand_barrett_to_right_hand_sensor" -> "right_hand_sensor_link"
+"right_hand_sensor_link" -> "right_finger1_joint_base" [label="xyz: -0.025 0 -0.028 \nrpy: 0 0 -1.5708"]
+"right_finger1_joint_base" -> "right_finger1_base_link"
+"right_finger1_base_link" -> "right_finger1_joint1" [label="xyz: -0.05 0 0.036 \nrpy: 1.13367e-05 1.5708 1.57081"]
+"right_finger1_joint1" -> "right_finger1_1_link"
+"right_finger1_1_link" -> "right_finger1_joint2" [label="xyz: -0.005 0.07 0 \nrpy: 0 -0 0"]
+"right_finger1_joint2" -> "right_finger1_2_link"
+"right_hand_sensor_link" -> "right_finger2_joint_base" [label="xyz: 0.025 0 -0.028 \nrpy: 0 0 -1.5708"]
+"right_finger2_joint_base" -> "right_finger2_base_link"
+"right_finger2_base_link" -> "right_finger2_joint1" [label="xyz: -0.05 0 0.036 \nrpy: 1.13367e-05 1.5708 1.57081"]
+"right_finger2_joint1" -> "right_finger2_1_link"
+"right_finger2_1_link" -> "right_finger2_joint2" [label="xyz: -0.005 0.07 0 \nrpy: 0 -0 0"]
+"right_finger2_joint2" -> "right_finger2_2_link"
+"right_hand_sensor_link" -> "right_finger3_joint1" [label="xyz: 0 -0.05 0.008 \nrpy: -1.5708 1.5708 1.5708"]
+"right_finger3_joint1" -> "right_finger3_1_link"
+"right_finger3_1_link" -> "right_finger3_joint2" [label="xyz: -0.005 0.07 0 \nrpy: 0 -0 0"]
+"right_finger3_joint2" -> "right_finger3_2_link"
+}
