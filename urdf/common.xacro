@@ -154,7 +154,7 @@
   
   <!-- ********** hand link barrett ********** -->
   <!-- hand link barrett Location: add to the transform from right hand adapter to right hand barrett -->
-  <property name="hand_barrett_x" value="0.088" />
+  <property name="hand_barrett_x" value="0.115" />
   <property name="hand_barrett_y" value="0.0" />
   <property name="hand_barrett_z" value="0.0" />
   <property name="hand_barrett_roll" value="${M_PI/2}" />
