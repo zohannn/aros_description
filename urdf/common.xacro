@@ -95,8 +95,8 @@
   <property name="arm4_pitch" value="${M_PI/2}" />
   <property name="arm4_yaw" value="0.0" />		
   <!-- arm joint 4 limits : add the joint limits of the right arm link 4 -->		
-  <property name="arm4_lower" value="-${165*M_PI/180.0}" />
-  <property name="arm4_upper" value="${15*M_PI/180.0}" />
+  <property name="arm4_lower" value="-${115*M_PI/180.0}" />
+  <property name="arm4_upper" value="${60*M_PI/180.0}" />
   
   <!-- ********** arm link 5 ********** -->
   <!-- arm link 5 Location: add to the transform from right arm 4 to right arm 5-->
