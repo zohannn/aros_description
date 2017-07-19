@@ -145,7 +145,7 @@
   
   <!-- ********** hand link adapter ********** -->
   <!-- hand link adapter Location: add to the transform from right hand fts to right hand adapter -->
-  <property name="hand_adapter_x" value="0.04" />
+  <property name="hand_adapter_x" value="0.05" />
   <property name="hand_adapter_y" value="0.0" />
   <property name="hand_adapter_z" value="0.0" />
   <property name="hand_adapter_roll" value="0.0" />
